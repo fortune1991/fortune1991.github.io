@@ -154,6 +154,31 @@ kbd {
   -ms-overflow-style: -ms-autohiding-scrollbar; // IE10+
 }
 
+.sidebar > header {
+  display: flex;
+  flex-direction: column;   /* stack items vertically */
+  align-items: center;      /* center items horizontally over title */
+  text-align: center;       /* center text for title */
+  width: 100%;              /* ensure header spans sidebar width */
+  padding-top: 20px;        /* optional top spacing */
+  position: relative;       /* allows absolute positioning if needed */
+}
+
+/* Style logo */
+.sidebar > header img.img-circle {
+  display: block;
+  max-width: 80%;           /* adjust if logo is too big */
+  height: auto;             /* maintain aspect ratio */
+  margin-bottom: 10px;      /* spacing between logo and title */
+}
+
+/* Optional: adjust title spacing below logo */
+.sidebar > header h1 {
+  margin: 0;
+  padding: 0;
+}
+
+
 // Disables the scrollbar in Firefox
 // HTML-Proofer fails without "@-moz-document url-prefix()"
 // because scrollbar-width is still experimental in Firefox.
