@@ -1,6 +1,5 @@
 title: Michael Fortune
 logo: /assets/img/logo.png
-email: michaelfortune91@gmail.com
 description: Mechanical Engineer in transition to Software and Data Engineering
 show_downloads: false
 google_analytics: G-ZLK2GHB055
@@ -23,6 +22,9 @@ sidebar:
     link: https://twitter.com/BodunHu
   - name: Blog
     icon: <i class="fa-solid fa-pen"></i>
+    link: https://www.bodunhu.com/blog/
+  - name: E-mail
+    icon: <i class="fa-solid fa-envelope"></i>
     link: https://www.bodunhu.com/blog/
 
 # https://github.com/github/pages-gem/issues/399#issuecomment-301827749
