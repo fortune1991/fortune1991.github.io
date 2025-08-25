@@ -14,15 +14,18 @@ sidebar:
   - name: Projects
     icon: <i class="fa-regular fa-lightbulb"></i>
     link: https://scholar.google.com/citations?user=zR6afi8AAAAJ
+  - name: Blog
+    icon: <i class="fa-solid fa-pen"></i>
+    link: https://www.bodunhu.com/blog/
   - name: GitHub
     icon: <i class="fa-brands fa-github"></i>
+    link: https://github.com/fortune1991
+  - name: Linkedin
+    icon: <i class="fa-brands fa-linkedin"></i>
     link: https://github.com/fortune1991
   - name: CV
     icon: <i class="fa-solid fa-briefcase"></i>
     link: https://twitter.com/BodunHu
-  - name: Blog
-    icon: <i class="fa-solid fa-pen"></i>
-    link: https://www.bodunhu.com/blog/
   - name: E-mail
     icon: <i class="fa-solid fa-envelope"></i>
     link: mailto:michaelfortune91@gmail.com
