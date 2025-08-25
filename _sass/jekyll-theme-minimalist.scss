@@ -154,6 +154,12 @@ kbd {
   -ms-overflow-style: -ms-autohiding-scrollbar; // IE10+
 }
 
+.sidebar > header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 // Disables the scrollbar in Firefox
 // HTML-Proofer fails without "@-moz-document url-prefix()"
 // because scrollbar-width is still experimental in Firefox.
