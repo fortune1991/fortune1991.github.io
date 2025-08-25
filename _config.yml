@@ -16,7 +16,7 @@ sidebar:
     link: https://scholar.google.com/citations?user=zR6afi8AAAAJ
   - name: GitHub
     icon: <i class="fa-brands fa-github"></i>
-    link: https://github.com/BDHU
+    link: https://github.com/fortune1991
   - name: CV
     icon: <i class="fa-solid fa-briefcase"></i>
     link: https://twitter.com/BodunHu
@@ -25,7 +25,7 @@ sidebar:
     link: https://www.bodunhu.com/blog/
   - name: E-mail
     icon: <i class="fa-solid fa-envelope"></i>
-    link: https://www.bodunhu.com/blog/
+    link: mailto:michaelfortune91@gmail.com
 
 # https://github.com/github/pages-gem/issues/399#issuecomment-301827749
 # When running locally, we run into the following error —
