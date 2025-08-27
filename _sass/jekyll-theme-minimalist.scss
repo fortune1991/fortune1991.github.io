@@ -55,9 +55,9 @@ p.link {
 
 /* added */
 ul.link {
-  list-style-type: none;  
-  margin: 0;              
-  padding: 0.4px;         
+  list-style-type: none;   /* Remove bullets */
+  margin: 0;               /* Remove default bottom margin */
+  padding: 0.4px;          /* Remove default left padding */
 }
 
 ul.link li + li {
@@ -144,38 +144,43 @@ kbd {
   height: calc(100vh - 108px);
   overflow-x: hidden;
   overflow-y: scroll;
-  -ms-overflow-style: -ms-autohiding-scrollbar;
+  -ms-overflow-style: -ms-autohiding-scrollbar; /* IE10+ */
 }
 
 .sidebar > header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  width: 100%;
-  padding-top: 20px;
-  position: relative;
+  flex-direction: column;  /* stack items vertically */
+  align-items: center;     /* center items horizontally */
+  text-align: center;      /* center text */
+  width: 100%;             /* span sidebar width */
+  padding-top: 20px;       /* top spacing */
+  position: relative;      /* allows absolute positioning if needed */
 }
 
+/* Style logo */
 .sidebar > header img.img-circle {
   display: block;
-  max-width: 80%;
-  height: auto;
-  margin-bottom: 10px;
+  max-width: 80%;   /* adjust if logo is too big */
+  height: auto;     /* maintain aspect ratio */
+  margin-bottom: 10px; /* spacing between logo and title */
 }
 
+/* Adjust title spacing below logo */
 .sidebar > header h1 {
   margin: 0;
   padding: 0;
 }
 
+/* Disables the scrollbar in Firefox */
+/* HTML-Proofer fails without "@-moz-document url-prefix()" */
+/* because scrollbar-width is still experimental in Firefox. */
 @-moz-document url-prefix() {
   .sidebar {
     scrollbar-width: none;
   }
 }
 
-.sidebar::-webkit-scrollbar {
+.sidebar::-webkit-scrollbar { /* Chrome, Safari, Edge */
   display: none;
 }
 
@@ -213,77 +218,49 @@ footer,
 footer { display: none; }
 .sidebar-footer { flex-basis: content; }
 
-/* ===== RESPONSIVE FIXES (Working) ===== */
-@media screen and (max-width: 960px) {
-
-  /* Sidebar stacked normally */
+@media print, screen and (max-width: 960px) {
   .sidebar {
-    position: static !important;
-    width: 100% !important;
-    float: none !important;
-    display: block !important;
-    padding: 0 !important;
-    overflow: visible !important;
+    padding: initial;
+    display: initial;
+    height: initial;
+    overflow: initial;
   }
-
-  .sidebar > header {
-    display: block !important;
-    text-align: center !important;
-    width: 100% !important;
-    padding: 20px 0 !important;
-  }
-
-  .sidebar > header img.img-circle {
-    display: block !important;
-    margin: 0 auto 10px auto !important;
-  }
-
-  .sidebar > header h1 {
-    margin: 0 auto !important;
-  }
-
-  /* Links horizontally centered under title/logo */
-  .sidebar > header ul.link {
-    display: flex !important;
-    flex-wrap: wrap !important;
-    justify-content: center !important;
-    align-items: center !important;
-    padding: 0 !important;
-    list-style: none !important;
-    margin: 10px auto 0 auto !important;
-    gap: 10px !important;
-  }
-
-  .sidebar > header ul.link li {
-    margin: 0 !important;
-  }
-
-  .link-wrapper, .img-circle {
-    display: none !important;
-  }
-
   footer {
-    display: initial !important;
+    display: initial;
   }
-
   .sidebar-footer {
-    display: none !important;
+    display: none;
   }
-
   div.wrapper {
-    width: auto !important;
-    margin: 0 !important;
+    width: auto;
+    margin: 0;
   }
-
+  .sidebar,
+  section,
+  footer {
+    float: none;
+    position: static;
+    width: auto;
+  }
+  header {
+    padding-right: 320px;
+  }
   section {
-    float: none !important;
-    position: static !important;
-    width: auto !important;
-    border: 1px solid var(--clr-splitter-blockquote-and-section) !important;
-    border-width: 1px 0 !important;
-    padding: 20px 0 !important;
-    margin: 0 0 20px 0 !important;
+    border: 1px solid var(--clr-splitter-blockquote-and-section);
+    border-width: 1px 0;
+    padding: 20px 0;
+    margin: 0 0 20px;
   }
+  header a small {
+    display: inline;
+  }
+  header ul {
+    position: absolute;
+    right: 50px;
+    top: 52px;
+  }
+  .link-wrapper { display: none !important; }
+  .img-circle { display: none !important; }
 }
 
 @media print, screen and (max-width: 720px) {
@@ -315,6 +292,9 @@ footer { display: none; }
   body {
     padding: 15px;
   }
+  /* header ul { width:99%; } */
+  /* header li,
+     header ul li + li + li { width:33%; } */
 }
 
 @media print {
