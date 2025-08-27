@@ -147,9 +147,10 @@ kbd {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: calc(100vh - 108px);
+    height: auto; /* Changed from calc(100vh - 108px) */
+    max-height: 100vh; /* Prevent exceeding viewport */
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: auto; /* Changed from scroll to auto */
     -ms-overflow-style: -ms-autohiding-scrollbar; /* IE10+ */
 }
 
@@ -231,6 +232,7 @@ footer {
         display: initial;
         height: initial;
         overflow: initial;
+        text-align: center; /* Center all content */
     }
 
     footer {
@@ -253,7 +255,17 @@ footer {
     }
 
     header {
-        padding-right: 320px;
+        padding-right: 0; /* Changed from 320px for better centering */
+        text-align: center; /* Center header content */
+    }
+
+    /* Mobile links container */
+    .links-mobile-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+        margin: 20px 0;
     }
 
     section {
@@ -268,9 +280,9 @@ footer {
     }
 
     header ul {
-        position: absolute;
-        right: 50px;
-        top: 52px;
+        position: static; /* Changed from absolute to static */
+        text-align: center; /* Center the links */
+        margin: 20px 0;
     }
 
     .link-wrapper {
