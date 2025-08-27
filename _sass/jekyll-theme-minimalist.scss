@@ -255,10 +255,15 @@ footer { display: none; }
     display: inline;
   }
   header ul {
-    position: absolute;
-    right: 50px;
-    top: 52px;
+    position: static;          /* stop absolute positioning */
+    display: flex;             /* lay links in a row */
+    justify-content: center;   /* center the row */
+    gap: 15px;                 /* optional: space between links */
+    margin: 15px 0;            /* spacing above/below */
+    padding: 0;
+    list-style: none;
   }
+
   .link-wrapper { display: none !important; }
   .img-circle { display: none !important; }
 }
