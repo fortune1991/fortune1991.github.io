@@ -326,3 +326,28 @@ footer {
         color: #444;
     }
 }
+
+.links-mobile-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.links-mobile-container a {
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    margin: 0 10px 10px 10px;
+}
+
+.links-mobile-container .icon {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.platform-name {
+    font-size: 14px;
+}
