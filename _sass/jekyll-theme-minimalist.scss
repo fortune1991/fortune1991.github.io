@@ -225,16 +225,20 @@ footer { display: none; }
     height: initial;
     overflow: initial;
   }
+
   footer {
     display: initial;
   }
+
   .sidebar-footer {
     display: none;
   }
+
   div.wrapper {
     width: auto;
     margin: 0;
   }
+
   .sidebar,
   section,
   footer {
@@ -242,24 +246,39 @@ footer { display: none; }
     position: static;
     width: auto;
   }
+
   header {
-    padding-right: 320px;
+    padding: 0;               /* remove padding that pushed content away */
+    text-align: center;       /* ✅ centers all text inside header */
   }
+
+  header h1,
+  header h2,
+  header h3,
+  header p {
+    text-align: center;       /* ✅ explicitly center titles/subtitles */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   section {
     border: 1px solid var(--clr-splitter-blockquote-and-section);
     border-width: 1px 0;
     padding: 20px 0;
     margin: 0 0 20px;
   }
+
   header a small {
     display: inline;
   }
+
   header ul {
-    position: static;          /* stop absolute positioning */
-    display: flex;             /* lay links in a row */
-    justify-content: center;   /* center the row */
-    gap: 15px;                 /* optional: space between links */
-    margin: 15px 0;            /* spacing above/below */
+    position: static;
+    display: flex;
+    justify-content: center;   /* ✅ center links */
+    flex-wrap: wrap;           /* allow wrapping neatly */
+    gap: 15px;
+    margin: 15px auto;
     padding: 0;
     list-style: none;
   }
