@@ -149,7 +149,7 @@ kbd {
     justify-content: space-between;
     height: calc(100vh - 108px);
     overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-y: auto;
     -ms-overflow-style: -ms-autohiding-scrollbar; /* IE10+ */
 }
 
