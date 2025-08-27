@@ -55,9 +55,9 @@ p.link {
 
 /* added */
 ul.link {
-  list-style-type: none;   /* Remove bullets */
-  margin: 0;               /* Remove default bottom margin */
-  padding: 0.4px;          /* Remove default left padding */
+  list-style-type: none;  
+  margin: 0;              
+  padding: 0.4px;         
 }
 
 ul.link li + li {
@@ -144,41 +144,38 @@ kbd {
   height: calc(100vh - 108px);
   overflow-x: hidden;
   overflow-y: scroll;
-  -ms-overflow-style: -ms-autohiding-scrollbar; /* IE10+ */
+  -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
 .sidebar > header {
   display: flex;
-  flex-direction: column;  /* stack items vertically */
-  align-items: center;     /* center items horizontally */
-  text-align: center;      /* center text */
-  width: 100%;             /* span sidebar width */
-  padding-top: 20px;       /* top spacing */
-  position: relative;      /* allows absolute positioning if needed */
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding-top: 20px;
+  position: relative;
 }
 
-/* Style logo */
 .sidebar > header img.img-circle {
   display: block;
-  max-width: 80%;   /* adjust if logo is too big */
-  height: auto;     /* maintain aspect ratio */
-  margin-bottom: 10px; /* spacing between logo and title */
+  max-width: 80%;
+  height: auto;
+  margin-bottom: 10px;
 }
 
-/* Adjust title spacing below logo */
 .sidebar > header h1 {
   margin: 0;
   padding: 0;
 }
 
-/* Disables the scrollbar in Firefox */
 @-moz-document url-prefix() {
   .sidebar {
     scrollbar-width: none;
   }
 }
 
-.sidebar::-webkit-scrollbar { /* Chrome, Safari, Edge */
+.sidebar::-webkit-scrollbar {
   display: none;
 }
 
@@ -216,77 +213,76 @@ footer,
 footer { display: none; }
 .sidebar-footer { flex-basis: content; }
 
-/* ===== RESPONSIVE FIXES ===== */
-@media print, screen and (max-width: 960px) {
-  /* Make sidebar normal stacked */
+/* ===== RESPONSIVE FIXES (Working) ===== */
+@media screen and (max-width: 960px) {
+
+  /* Sidebar stacked normally */
   .sidebar {
-    position: static;
-    width: 100%;
-    float: none;
-    display: block;
-    padding: 0;
-    overflow: visible;
+    position: static !important;
+    width: 100% !important;
+    float: none !important;
+    display: block !important;
+    padding: 0 !important;
+    overflow: visible !important;
   }
 
-  footer {
-    display: initial;
-  }
-
-  .sidebar-footer {
-    display: none;
-  }
-
-  div.wrapper {
-    width: auto;
-    margin: 0;
-  }
-
-  section {
-    float: none;
-    position: static;
-    width: auto;
-    border: 1px solid var(--clr-splitter-blockquote-and-section);
-    border-width: 1px 0;
-    padding: 20px 0;
-    margin: 0 0 20px;
-  }
-
-  /* Center header content and logo */
   .sidebar > header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 20px 0;
+    display: block !important;
+    text-align: center !important;
+    width: 100% !important;
+    padding: 20px 0 !important;
   }
 
   .sidebar > header img.img-circle {
-    display: block;
-    margin: 0 auto 10px auto;
+    display: block !important;
+    margin: 0 auto 10px auto !important;
   }
 
   .sidebar > header h1 {
-    margin: 0;
+    margin: 0 auto !important;
   }
 
-  /* Center sidebar links horizontally */
+  /* Links horizontally centered under title/logo */
   .sidebar > header ul.link {
     display: flex !important;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    list-style: none;
-    margin: 10px auto 0 auto;
-    gap: 10px;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 0 !important;
+    list-style: none !important;
+    margin: 10px auto 0 auto !important;
+    gap: 10px !important;
   }
 
   .sidebar > header ul.link li {
-    margin: 0;
+    margin: 0 !important;
   }
 
   .link-wrapper, .img-circle {
     display: none !important;
+  }
+
+  footer {
+    display: initial !important;
+  }
+
+  .sidebar-footer {
+    display: none !important;
+  }
+
+  div.wrapper {
+    width: auto !important;
+    margin: 0 !important;
+  }
+
+  section {
+    float: none !important;
+    position: static !important;
+    width: auto !important;
+    border: 1px solid var(--clr-splitter-blockquote-and-section) !important;
+    border-width: 1px 0 !important;
+    padding: 20px 0 !important;
+    margin: 0 0 20px 0 !important;
   }
 }
 
