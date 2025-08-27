@@ -234,15 +234,10 @@ footer {
 @media print, screen and (max-width: 960px) {
 
   .sidebar {
-    padding: 10px 0;              /* give a little breathing space */
-    display: flex;                /* ✅ use flexbox */
-    flex-direction: column;       /* stack vertically */
-    align-items: center;          /* ✅ center horizontally */
-    justify-content: center;      /* ✅ center vertically if row */
-    width: 100%;
-    float: none;
-    position: relative;
-    text-align: center;           /* ✅ text centered */
+    padding: initial;
+    display: initial;
+    height: initial;
+    overflow: initial;    
   }
 
   footer {
@@ -265,9 +260,14 @@ footer {
   }
 
   header {
-    padding: 0;                   /* ✅ remove weird 320px offset */
-    margin: 0 auto;               /* center inside flex parent */
-    text-align: center;           /* ✅ force center text */
+    padding-right:320px;
+  }
+
+  section {
+    border:1px solid var(--clr-splitter-blockquote-and-section);
+    border-width:1px 0;
+    padding:20px 0;
+    margin:0 0 20px;
   }
 
   header a small {
@@ -275,11 +275,9 @@ footer {
   }
 
   header ul {
-    position: static;             /* ✅ remove absolute positioning */
-    display: flex;                /* make nav horizontal */
-    justify-content: center;      /* ✅ center nav links */
-    gap: 15px;                    /* add space between links */
-    margin-top: 10px;
+    position:absolute;
+    right:50px;
+    top:52px;
   }
   
   .link-wrapper {
@@ -287,7 +285,7 @@ footer {
   }
 
   .img-circle {
-    margin-bottom: 10px;          /* keep logo spacing when shown */
+    display: none !important;
   }
 }
 
@@ -323,6 +321,14 @@ footer {
   body {
     padding:15px;
   }
+
+  // header ul {
+  //   width:99%;
+  // }
+
+  // header li, header ul li + li + li {
+  //   width:33%;
+  // }
 }
 
 @media print {
