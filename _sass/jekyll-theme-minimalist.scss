@@ -172,8 +172,6 @@ kbd {
 }
 
 /* Disables the scrollbar in Firefox */
-/* HTML-Proofer fails without "@-moz-document url-prefix()" */
-/* because scrollbar-width is still experimental in Firefox. */
 @-moz-document url-prefix() {
   .sidebar {
     scrollbar-width: none;
@@ -218,12 +216,16 @@ footer,
 footer { display: none; }
 .sidebar-footer { flex-basis: content; }
 
+/* ===== RESPONSIVE FIXES ===== */
 @media print, screen and (max-width: 960px) {
   .sidebar {
     padding: initial;
     display: initial;
     height: initial;
     overflow: initial;
+    position: static;
+    width: auto;
+    float: none;
   }
 
   footer {
@@ -239,48 +241,46 @@ footer { display: none; }
     margin: 0;
   }
 
-  .sidebar,
-  section,
-  footer {
+  section {
     float: none;
     position: static;
     width: auto;
-  }
-
-  header {
-    padding: 0;               /* remove padding that pushed content away */
-    text-align: center;       /* ✅ centers all text inside header */
-  }
-
-  header h1,
-  header h2,
-  header h3,
-  header p {
-    text-align: center;       /* ✅ explicitly center titles/subtitles */
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  section {
     border: 1px solid var(--clr-splitter-blockquote-and-section);
     border-width: 1px 0;
     padding: 20px 0;
     margin: 0 0 20px;
   }
 
-  header a small {
-    display: inline;
+  header {
+    padding: 0;               
+    text-align: center;       /* centers all text */
   }
 
-  header ul {
-    position: static;
+  header h1,
+  header h2,
+  header h3,
+  header p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Center all ul links under title */
+  header ul,
+  header ul.link {
     display: flex;
-    justify-content: center;   /* ✅ center links */
-    flex-wrap: wrap;           /* allow wrapping neatly */
-    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     margin: 15px auto;
     padding: 0;
     list-style: none;
+    gap: 10px;
+  }
+
+  header ul li,
+  header ul.link li {
+    margin: 0;
   }
 
   .link-wrapper { display: none !important; }
@@ -316,9 +316,6 @@ footer { display: none; }
   body {
     padding: 15px;
   }
-  /* header ul { width:99%; } */
-  /* header li,
-     header ul li + li + li { width:33%; } */
 }
 
 @media print {
