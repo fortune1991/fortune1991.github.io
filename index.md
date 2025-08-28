@@ -10,3 +10,18 @@ I'm originally from the UK and came to Christchurch, New Zealand in 2019 for a �
 I’m currently abroad on a year-long sabbatical, travelling the world with my wonderful girlfriend. After hiking in the Himalayas, exploring cultural sites in India, and cycling 3,000 km around mainland Europe, our ambitious plan continues as we cycle from Bangkok to Singapore as part of our return journey. We’ll be back in Christchurch in January 2026, when I’ll be looking for new job opportunities.
 
 # Snaps from the road
+
+<!-- Image Carousel -->
+<div class="image-carousel">
+  <div class="carousel-container">
+    <img class="carousel-image active" src="/assets/img/image1.jpg" alt="Image 1">
+    <img class="carousel-image" src="/assets/img/image2.jpg" alt="Image 2">
+    <img class="carousel-image" src="/assets/img/image3.jpg" alt="Image 3">
+    <img class="carousel-image" src="/assets/img/image4.jpg" alt="Image 4">
+  </div>
+  <div class="carousel-controls">
+    <button class="carousel-prev">‹</button>
+    <div class="carousel-dots"></div>
+    <button class="carousel-next">›</button>
+  </div>
+</div>
