@@ -1,17 +1,15 @@
-
 ---
 layout: default
 title: Projects
 permalink: /projects/
 ---
 
-# My Projects
+# Projects
+## Software
 
-Here are some of the projects I've worked on:
+Here are some of my personal projects I've been working on to develop my software engineering skills. Each project focuses different skills, explained in the description.
 
-## Software Engineering Projects
-
-### Project 1: [Project Name]
+### IOT Greenhouse concept
 **Technologies:** Python, JavaScript, React  
 **Description:** Brief description of what the project does and what problem it solves.  
 **Key Features:**
@@ -22,7 +20,7 @@ Here are some of the projects I've worked on:
 **Live Demo:** [Link to live demo](#)  
 **GitHub:** [Link to repository](#)
 
-### Project 2: [Project Name]
+### MoneyPots
 **Technologies:** Java, Spring Boot, MySQL  
 **Description:** Brief description of the project.  
 **Key Features:**
@@ -31,9 +29,7 @@ Here are some of the projects I've worked on:
 
 **GitHub:** [Link to repository](#)
 
-## Data Engineering Projects
-
-### Project 3: [Project Name]
+### Quantifying Energy Poverty in Chicago 
 **Technologies:** Python, Pandas, SQL, Airflow  
 **Description:** ETL pipeline for processing large datasets.  
 **Key Features:**
@@ -41,9 +37,17 @@ Here are some of the projects I've worked on:
 - Data transformation and cleaning
 - Automated scheduling
 
-## Mechanical Engineering Projects
+### La Bodega Disco Website
+**Technologies:** Python, Pandas, SQL, Airflow  
+**Description:** ETL pipeline for processing large datasets.  
+**Key Features:**
+- Data extraction from multiple sources
+- Data transformation and cleaning
+- Automated scheduling
 
-### Project 4: [Project Name]
+## DIY
+
+### Campervan conversions
 **Technologies:** CAD, FEA, MATLAB  
 **Description:** Mechanical design project description.  
 **Key Achievements:**
