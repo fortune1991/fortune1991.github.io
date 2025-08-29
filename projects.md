@@ -17,8 +17,8 @@ Here are some of my personal projects I've been working on to develop my softwar
 - Feature 2  
 - Feature 3
 
-**Live Demo:** [Link to live demo](#)  
-**GitHub:** [Link to repository](#)
+**Write-up:** [Read the full case study](https://fortune1991.github.io/projects/iot_greenhouse/) 
+**GitHub:** [Link to repository](https://www.github.com/fortune1991)
 
 ### MoneyPots
 **Technologies:** Java, Spring Boot, MySQL  
