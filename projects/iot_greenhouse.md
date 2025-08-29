@@ -1,4 +1,7 @@
-# IOT Greenhouse concept
+---
+title: "IoT Greenhouse Project"
+permalink: /projects/iot_greenhouse/
+---
 ## Technologies: 
 Python, JavaScript, React  
 ## Description: 
