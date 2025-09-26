@@ -2,8 +2,9 @@
 title: "IoT Greenhouse Project"
 permalink: /projects/iot_greenhouse/
 ---
+# IoT Greenhouse Concept
 ## Technologies: 
-Python, JavaScript, React  
+Raspberry Pi Pico, microPython, AWS
 ## Description: 
 Brief description of what the project does and what problem it solves.  
 ## Key Features:
