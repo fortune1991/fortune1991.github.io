@@ -11,7 +11,7 @@ Here are some of the side projects that I've been working on during my year away
 
 ### ICU_Grow
 <p align="center">
-  <img src="/assets/img/icu_grow.jpg" alt="ICU_Grow image" width="400">
+  <img src="/assets/img/icu_grow.jpg" alt="ICU_Grow image" width="800">
 </p>
 
 **Technologies:** Python, JavaScript, React  
@@ -45,8 +45,9 @@ Here are some of the side projects that I've been working on during my year away
 ## DIY
 
 ### Campervan conversions
-**Technologies:** Powertools, CAD, 12V Electronics  
+**Technologies:** Power tools, CAD, 12V Electronics  
 **Description:**  Campervan designed to support travel, MTBing and good times accross New Zealand :D
+
 **Key Achievements:**
 - Achievement 1
 - Achievement 2
