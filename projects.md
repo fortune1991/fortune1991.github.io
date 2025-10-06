@@ -51,6 +51,9 @@ Here are some of the side projects that I've been working on during my year away
 ## DIY
 
 ### Campervan conversions
+<p align="center">
+  <img src="/assets/img/campervan.jpg" alt="ICU_Grow image" width="850">
+</p>
 **Technologies:** Power tools, CAD, 12V Electronics  
 
 **Description:**  Campervan designed to support travel, MTBing and good times accross New Zealand :D
