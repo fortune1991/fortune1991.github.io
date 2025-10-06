@@ -7,11 +7,11 @@ permalink: /projects/
 # Projects
 ## Software
 
-Here are some of the side projects that I've been working on during my year away travelling. To expand my skill set, each project focuses different technologies and libraries. 
+Here are some of the side projects that I've been working on during my year away travelling. To expand my skill set, each project has focused on different technologies and libraries. 
 
 ### ICU_Grow
 <p align="center">
-  <img src="/assets/img/icu_grow" alt="ICU_Grow image" width="400">
+  <img src="/assets/img/icu_grow.jpg" alt="ICU_Grow image" width="400">
 </p>
 
 **Technologies:** Python, JavaScript, React  
