@@ -11,7 +11,7 @@ Here are some of the side projects that I've been working on during my year away
 
 ### ICU_Grow
 <p align="center">
-  <img src="/assets/img/icu_grow.jpg" alt="ICU_Grow image" width="800">
+  <img src="/assets/img/icu_grow.jpg" alt="ICU_Grow image" width="850">
 </p>
 
 **Technologies:** Python, JavaScript, React  
