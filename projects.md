@@ -57,7 +57,7 @@ Here are some of the side projects that I've been working on during my year away
 </p>
 **Skills:** Power tools, CAD, 12V Electronics, Woodworking, Metal work, Carpet Lining, Painting, Sewing
 
-**Description:**  Campervan designed to support travel, MTBing and good times accross New Zealand
+**Description:**  Campervan designed to support travel, MTBing and good times across New Zealand. Completed in December 2023, the design & build of this project was undertaken over 6 months. 
 
 **Key Features:**
 - 100Ah Lithium Battery with 220W solar panel and charge while driving system
@@ -73,4 +73,4 @@ Here are some of the side projects that I've been working on during my year away
 - Two bike rack, connected to brake lights. Rotates to allow boot access
 - Massive amount of storage space under bed, in kitchen and above drivers cab
 
-[**Build photos and schematics here**](/projects/campervan)
+[Build diary can be found here](/projects/campervan)
