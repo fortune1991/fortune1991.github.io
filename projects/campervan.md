@@ -6,6 +6,7 @@ permalink: /projects/campervan/
 
 ## Empty Van
 February 2023, I purchased the van from a dealer in Christchurch. It was previously a tradies van and had never been used as a campervan before.
+
 **Outside**
 <p align="center">
   <img src="/assets/img/van/empty/empty_1.jpg" alt="empty_1" width="850">
@@ -17,6 +18,7 @@ February 2023, I purchased the van from a dealer in Christchurch. It was previou
 
 ## Design Snippets
 For me, projects always go so much better with some pre-stage planning. Here's a few examples of the CAD work I did before starting the build. Schematic was made in Powerpoint and thr 3D model in Googl Sketchup.
+
 **Electrical Schematic**
 <p align="center">
   <img src="/assets/img/van/design/schematic_1.jpg" alt="schematic_1" width="850">
@@ -29,12 +31,14 @@ For me, projects always go so much better with some pre-stage planning. Here's a
 
 ## Build
 I had some help with the build aspects of the project. Mostly from this guy :D
+
 **Quality Control Inspector**
 <p align="center">
   <img src="/assets/img/van/inspector.jpg" alt="inspector" width="850">
 </p>
 
 **Roof**
+
 February 2023, I started the build of the project by working on the roof. This involved removing the original roof linings and insulating the underside with 20mm foam. I had to design a custom detail and frame to support the roof fan, which was tricky with the curved roof! Was very happy with the result. I also repainted and then soundproofed the underside of the roof to prevent rust and noise ingress into the van.
 
 Insulation and roof fabric lining:
@@ -57,7 +61,7 @@ Acoustic rubber lining installed to reduce noise:
   <img src="/assets/img/van//roof/roof_4.jpg" alt="roof_4" width="850">
 </p>
 
-Marking our hole for roof fan:
+Marking out hole for roof fan:
 <p align="center">
   <img src="/assets/img/van//roof/roof_5.jpg" alt="roof_5" width="850">
 </p>
@@ -83,6 +87,7 @@ View from the roof:
 </p>
 
 **Floor**
+
 April 2023, after returning from holiday I started working on the floor. First step was preparing the floor for repainting to prevent any rust in the future. After painting, I was able to glue some wooden battens to the surface, which would be used to screw in the plywood boards. Next step was cutting the pywood to shape, followed by attaching 30mm polystyrene insulation to the underside. I had to cut route some channels in some sections of the insulation to route some cable conduits. Next step was to cut the vinyl flooring to shape. Once installed, I was then able to drill the holes through the floor required for the diesel heater intake and exhaust pipes.
 
 Preparing the floor for painting:
