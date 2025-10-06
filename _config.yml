@@ -17,9 +17,6 @@ sidebar:
   - name: Projects
     icon: <i class="fa-regular fa-lightbulb"></i>
     link: https://fortune1991.github.io/projects
-  - name: Blog
-    icon: <i class="fa-solid fa-pen"></i>
-    link: https://fortune1991.github.io/blog
   - name: GitHub
     icon: <i class="fa-brands fa-github"></i>
     link: https://github.com/fortune1991
