@@ -24,6 +24,7 @@ Here are some of the side projects that I've been working on during my year away
 - Feature 3
 
 **Demonstration Video:** [Link to video](www.youtube.com)
+
 **GitHub:** [Link to repository](https://www.github.com/fortune1991)
 
 ### MoneyPots
@@ -54,12 +55,22 @@ Here are some of the side projects that I've been working on during my year away
 <p align="center">
   <img src="/assets/img/campervan.jpg" alt="ICU_Grow image" width="850">
 </p>
-**Technologies:** Power tools, CAD, 12V Electronics  
+**Skills:** Power tools, CAD, 12V Electronics, Woodworking, Metal work, Carpet Lining, Painting, Sewing
 
-**Description:**  Campervan designed to support travel, MTBing and good times accross New Zealand :D
+**Description:**  Campervan designed to support travel, MTBing and good times accross New Zealand
 
-**Key Achievements:**
-- Achievement 1
-- Achievement 2
+**Key Features:**
+- 100Ah Lithium Battery with 220W solar panel and charge while driving system
+- 12V electrical power system for fridge, lighting, roof ventilation fan, laptops and water pump
+- Fully insulated walls, floor and ceiling
+- Diesel Heating for winter ski trips
+- Outside shower
+- Kitchen and sink plumbed to fresh and grey water tanks
+- Apple car play and upgraded stero system + alarm/immobiliser
+- Upgraded alloy wheels/tyres
+- Custom insulated window covers/blinds
+- Removable table for eating inside and board games
+- Two bike rack, connected to brake lights. Rotates to allow boot access
+- Massive amount of storage space under bed, in kitchen and above drivers cab
 
----
+[Build photos and schematics here](/projects/campervan)
