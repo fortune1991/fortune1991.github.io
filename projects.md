@@ -73,4 +73,4 @@ Here are some of the side projects that I've been working on during my year away
 - Two bike rack, connected to brake lights. Rotates to allow boot access
 - Massive amount of storage space under bed, in kitchen and above drivers cab
 
-[Build photos and schematics here](/projects/campervan)
+[**Build photos and schematics here**](/projects/campervan)
