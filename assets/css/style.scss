@@ -66,21 +66,3 @@
     width: 70%;
   }
 }
-
-/* --- Sidebar top spacing fix for Minima/Minimalist --- */
-/* Remove extra padding/margin above the first child */
-#sidebar > *:first-child {
-    margin-top: 0 !important;
-    padding-top: 0 !important;
-}
-
-/* Remove extra bottom spacing from description */
-#sidebar .site-description {
-    margin-bottom: 0 !important;
-    padding-bottom: 0 !important;
-}
-
-/* Optional: slightly reduce space between sidebar items */
-#sidebar ul li {
-    margin-top: 0.25rem;
-}

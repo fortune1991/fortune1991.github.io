@@ -18,7 +18,7 @@ In my spare time, I enjoy getting some good use out of my power tool "investment
 **Description:** Campervan designed to support travel, MTBing and good times across New Zealand. Completed in December 2023, just in time for my Dad's first trip over and our tour of the South Island. The design & build of this project was undertaken over 9 months. 
 
 **Key Features:**
-- 100Ah Lithium Battery with 220W solar panel and charge while driving system
+- 100Ah Lithium Battery with 220W solar panel and charge while driving option
 - 12V electrical power system for fridge, lighting, roof ventilation fan, laptops and water pump
 - Fully insulated walls, floor and ceiling
 - Diesel Heating for winter ski trips
@@ -26,6 +26,7 @@ In my spare time, I enjoy getting some good use out of my power tool "investment
 - Kitchen and sink plumbed to fresh and grey water tanks
 - Apple car play and upgraded stero system + alarm/immobiliser
 - Upgraded alloy wheels/tyres
+- Tinted windows
 - Custom insulated window covers/blinds
 - Removable table for eating inside and board games
 - Two bike rack, connected to brake lights. Rotates to allow boot access
