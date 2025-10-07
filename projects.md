@@ -4,73 +4,94 @@ title: Projects
 permalink: /projects/
 ---
 
-# Projects
-## Software
+<style>
+/* --- Projects Landing Page Styling --- */
+.projects-landing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 4rem auto;
+  max-width: 900px;
+  padding: 1rem;
+}
 
-Here are some of the side projects that I've been working on during my year away travelling. To expand my skill set, each project has focused on different technologies and libraries. 
+.projects-landing h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
 
-### ICU_Grow
-<p align="center">
-  <img src="/assets/img/icu_grow.jpg" alt="ICU_Grow image" width="850">
-</p>
+.projects-landing p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 3rem;
+}
 
-**Technologies:** Python, JavaScript, React 
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
 
-**Description:** ICU_Grow is an IoT enabled, automated greenhouse, designed for my garden 
+.project-card {
+  background: #f9f9f9;
+  border-radius: 1rem;
+  padding: 2rem;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
 
-**Key Features:**
-- Feature 1
-- Feature 2  
-- Feature 3
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  background: #fff;
+}
 
-**Demonstration Video:** [Link to video](www.youtube.com)
+.project-card i {
+  font-size: 3rem;
+  color: #2a9d8f;
+  margin-bottom: 1rem;
+}
 
-**GitHub:** [Link to repository](https://www.github.com/fortune1991)
+.project-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
 
-### MoneyPots
-**Technologies:** Java, Spring Boot, MySQL  
+.project-card a {
+  text-decoration: none;
+  color: inherit;
+}
 
-**Description:** Money Pots is a budgeting calculator built for travelers. It enables users to divide their savings into Vaults and Pots, helping them manage funds across different parts of a trip. A built-in budget forecasting tool estimates what your balance _should_ be at any given point to stay on track. The project has been developed iteratively, allowing me to explore the impact of new features and architectural changes within an evolving codebase.
+.project-card p {
+  color: #666;
+  font-size: 1rem;
+}
+</style>
 
-**Key Features:**
-- Feature 1
-- Feature 2
+<!-- Include Font Awesome (for icons) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-**Write-ups**
-- blah 
+<div class="projects-landing">
+  <h1>My Projects</h1>
+  <p>Explore what I’ve been working on, from software experiments to hands-on DIY builds</p>
 
-**GitHub:** [Link to repository](#)
+  <div class="project-links">
+    <a href="/projects/software" class="project-card">
+      <i class="fa-solid fa-laptop-code"></i>
+      <h2>Software</h2>
+      <p>Apps, tools, and data-driven experiments built while travelling the world.</p>
+    </a>
 
-### Quantifying Energy Poverty in Chicago 
+    <a href="/projects/diy" class="project-card">
+      <i class="fa-solid fa-hammer"></i>
+      <h2>DIY</h2>
+      <p>Campervan builds, gardening, woodworking, and other creative weekend projects.</p>
+    </a>
+  </div>
+</div>
 
-**info coming soon!**
-
-### La Bodega Disco Website
-
-**info coming soon!**
-
-## DIY
-
-### Campervan conversions
-<p align="center">
-  <img src="/assets/img/campervan.jpg" alt="ICU_Grow image" width="850">
-</p>
-**Skills:** Power tools, CAD, 12V Electronics, Woodworking, Metal work, Carpet Lining, Painting, Sewing
-
-**Description:**  Campervan designed to support travel, MTBing and good times across New Zealand. Completed in December 2023, the design & build of this project was undertaken over 6 months. 
-
-**Key Features:**
-- 100Ah Lithium Battery with 220W solar panel and charge while driving system
-- 12V electrical power system for fridge, lighting, roof ventilation fan, laptops and water pump
-- Fully insulated walls, floor and ceiling
-- Diesel Heating for winter ski trips
-- Outside shower
-- Kitchen and sink plumbed to fresh and grey water tanks
-- Apple car play and upgraded stero system + alarm/immobiliser
-- Upgraded alloy wheels/tyres
-- Custom insulated window covers/blinds
-- Removable table for eating inside and board games
-- Two bike rack, connected to brake lights. Rotates to allow boot access
-- Massive amount of storage space under bed, in kitchen and above drivers cab
-
-[Build diary can be found here](/projects/campervan)
