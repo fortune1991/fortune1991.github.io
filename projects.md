@@ -81,13 +81,13 @@ permalink: /projects/
   <p>Explore what I’ve been working on, from software experiments to hands-on DIY builds</p>
 
   <div class="project-links">
-    <a href="https://fortune1991.github.io/projects/software/" class="project-card">
+    <a href="/projects/software/" class="project-card">
       <i class="fa-solid fa-laptop-code"></i>
       <h2>Software</h2>
       <p>Apps, tools, and data-driven experiments</p>
     </a>
 
-    <a href="https://fortune1991.github.io/projects/diy/" class="project-card">
+    <a href="/projects/diy/" class="project-card">
       <i class="fa-solid fa-hammer"></i>
       <h2>DIY</h2>
       <p>Campervan builds, gardening, woodworking, and other creative weekend projects</p>

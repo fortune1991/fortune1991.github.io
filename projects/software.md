@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Software
-permalink: /projects/software/software
+permalink: /projects/software/
 ---
 
 # Software

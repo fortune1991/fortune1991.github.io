@@ -1,7 +1,7 @@
 ---
 layout: default
 title: DIY
-permalink: /projects/diy/diy
+permalink: /projects/diy/
 ---
 
 # DIY
