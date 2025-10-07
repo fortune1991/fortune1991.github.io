@@ -11,13 +11,13 @@ permalink: /projects/
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin: 4rem auto;
-  max-width: 900px;
-  padding: 1rem;
+  margin: 0.5rem auto;
+  max-width: 850px;
+  padding: 0.5rem;
 }
 
 .projects-landing h1 {
-  font-size: 2em; /* made smaller to match other Markdown # headings */
+  font-size: 2em;
   margin-bottom: 1rem;
   color: #222;
 }
@@ -32,14 +32,14 @@ permalink: /projects/
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 2rem;
+  gap: 0.5rem;
 }
 
 .project-card {
   background: #f9f9f9;
-  border-radius: 1rem;
-  padding: 2rem;
-  width: 250px;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  width: 50px;
   text-align: center;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
   transition: all 0.3s ease;
@@ -54,7 +54,7 @@ permalink: /projects/
 .project-card i {
   font-size: 3rem;
   color: #2a9d8f;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .project-card h2 {
