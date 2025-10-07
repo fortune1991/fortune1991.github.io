@@ -12,34 +12,40 @@ permalink: /projects/
   align-items: center;
   text-align: center;
   margin: 4rem auto;
-  max-width: 900px;
+  max-width: 850px;
   padding: 1rem;
 }
 
+/* Match the site's normal Markdown H1 size */
 .projects-landing h1 {
-  font-size: 3rem;
+  font-size: 2em; /* same as Markdown # heading */
+  font-weight: 700;
   margin-bottom: 1rem;
   color: #222;
 }
 
 .projects-landing p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #555;
-  margin-bottom: 3rem;
+  margin-bottom: 2.5rem;
+  max-width: 700px;
 }
 
+/* Two cards side by side, centered, max combined width 850px */
 .project-links {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
+  flex-wrap: wrap;
+  max-width: 850px;
 }
 
 .project-card {
   background: #f9f9f9;
   border-radius: 1rem;
   padding: 2rem;
-  width: 250px;
+  width: 100%;
+  max-width: 400px; /* two cards fit side by side within 850px total */
   text-align: center;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
   transition: all 0.3s ease;
@@ -52,13 +58,13 @@ permalink: /projects/
 }
 
 .project-card i {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #2a9d8f;
   margin-bottom: 1rem;
 }
 
 .project-card h2 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin-bottom: 0.5rem;
 }
 
@@ -94,4 +100,3 @@ permalink: /projects/
     </a>
   </div>
 </div>
-
