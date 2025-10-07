@@ -1,7 +1,7 @@
 title: Michael Fortune
 logo: /assets/img/logo.png
 description: |
-  <span style="font-size: 1.25em; font-weight: bold; display: inline-block; padding-top: 0.5rem;">
+  <span style="font-size: 1.25em; font-weight: bold; display: inline-block; padding-top: 0.5rem; margin-bottom: 0;">
     Software & <br> Data Engineer
   </span>
 show_downloads: false
