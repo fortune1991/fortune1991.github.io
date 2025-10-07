@@ -39,7 +39,7 @@ permalink: /projects/
   background: #f9f9f9;
   border-radius: 0.5rem;
   padding: 0.5rem;
-  width: 600px;
+  width: 550px;
   text-align: center;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
   transition: all 0.3s ease;
@@ -53,7 +53,7 @@ permalink: /projects/
 
 .project-card i {
   font-size: 3rem;
-  color: #5871ffff;
+  color: #0277b3ff;
   margin-bottom: 0.5rem;
 }
 
@@ -71,6 +71,14 @@ permalink: /projects/
   color: #666;
   font-size: 1rem;
   margin-bottom: 0; /* ✅ remove bottom gap */
+}
+
+/* --- Responsive for phones --- */
+@media (max-width: 600px) {
+  .project-card {
+    width: 90%; /* reduce width on small screens */
+    max-width: 300px; /* optional, caps the max width */
+  }
 }
 </style>
 
