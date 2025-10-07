@@ -70,6 +70,7 @@ permalink: /projects/
 .project-card p {
   color: #666;
   font-size: 1rem;
+  margin-bottom: 0; /* ✅ remove bottom gap */
 }
 </style>
 
@@ -94,4 +95,5 @@ permalink: /projects/
     </a>
   </div>
 </div>
+
 
