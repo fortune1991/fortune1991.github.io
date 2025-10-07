@@ -39,7 +39,7 @@ permalink: /projects/
   background: #f9f9f9;
   border-radius: 0.5rem;
   padding: 0.5rem;
-  width: 400px;
+  width: 600px;
   text-align: center;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
   transition: all 0.3s ease;
