@@ -66,3 +66,9 @@
     width: 70%;
   }
 }
+
+/* Reduce extra padding above sidebar items */
+.sidebar-wrapper .site-header {
+    padding-top: 0.5rem; /* default is often 2rem */
+    margin-bottom: 0;    /* remove extra bottom space */
+}
