@@ -53,7 +53,7 @@ permalink: /projects/
 
 .project-card i {
   font-size: 3rem;
-  color: #2a9d8f;
+  color: #2948f8ff;
   margin-bottom: 0.5rem;
 }
 

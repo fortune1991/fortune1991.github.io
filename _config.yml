@@ -28,7 +28,7 @@ sidebar:
     icon: <i class="fa-solid fa-envelope"></i>
     link: mailto:michaelfortune91@gmail.com
   - name: Music
-    icon: <i class="fa-solid fa-music-note"></i>
+    icon: <i class="fa-solid fa-music"></i>
     link: https://fortune1991.github.io/music
 
 # https://github.com/github/pages-gem/issues/399#issuecomment-301827749
