@@ -12,41 +12,34 @@ permalink: /projects/
   align-items: center;
   text-align: center;
   margin: 4rem auto;
-  max-width: 850px;
+  max-width: 900px;
   padding: 1rem;
 }
 
-/* Match the site's normal Markdown H1 size */
 .projects-landing h1 {
-  font-size: 2em; /* same as Markdown # heading */
-  font-weight: 700;
+  font-size: 2em; /* made smaller to match other Markdown # headings */
   margin-bottom: 1rem;
   color: #222;
 }
 
 .projects-landing p {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: #555;
-  margin-bottom: 2.5rem;
-  max-width: 700px;
+  margin-bottom: 3rem;
 }
 
-/* Two cards side by side within 850px */
 .project-links {
   display: flex;
-  justify-content: center;
-  align-items: stretch;
-  gap: 2rem;
   flex-wrap: wrap;
-  max-width: 850px;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .project-card {
   background: #f9f9f9;
   border-radius: 1rem;
   padding: 2rem;
-  flex: 1 1 350px; /* flexible width */
-  max-width: 400px; /* never exceed half of 850px */
+  width: 250px;
   text-align: center;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
   transition: all 0.3s ease;
@@ -59,13 +52,13 @@ permalink: /projects/
 }
 
 .project-card i {
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: #2a9d8f;
   margin-bottom: 1rem;
 }
 
 .project-card h2 {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   margin-bottom: 0.5rem;
 }
 
@@ -77,19 +70,6 @@ permalink: /projects/
 .project-card p {
   color: #666;
   font-size: 1rem;
-}
-
-/* Responsive stacking for narrow screens */
-@media (max-width: 768px) {
-  .project-links {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .project-card {
-    max-width: 500px;
-    width: 100%;
-  }
 }
 </style>
 
