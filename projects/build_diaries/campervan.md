@@ -184,12 +184,12 @@ Thanks to Clare for all her help on this one! In August 2023 we cracked on with 
 
 **Front cab blind**
 <p align="center">
-  <img src="/assets/img/van/blinds_carpets/blinds_1.jpg" alt="blinds_1" width="850">
+  <img src="/assets/img/van/blinds_carpet/blinds_1.jpg" alt="blinds_1" width="850">
 </p>
 
 **Carpet lining**
 <p align="center">
-  <img src="/assets/img/van/blinds_carpets/carpet_1.jpg" alt="carpet_1" width="850">
+  <img src="/assets/img/van/blinds_carpet/carpet_1.jpg" alt="carpet_1" width="850">
 </p>
 
 ### Awning
@@ -253,7 +253,7 @@ November 2023. Now the fridge was in place, it was time to build the bed. More p
   <img src="/assets/img/van/bed/bed_2.jpg" alt="bed_2" width="850">
 </p>
 
-**Mattress in, cosy vibes 😴**
+**Mattress in. Cosy vibes 😴**
 <p align="center">
   <img src="/assets/img/van/bed/bed_3.jpg" alt="bed_3" width="850">
 </p>
