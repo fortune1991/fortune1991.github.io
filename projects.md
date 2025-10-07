@@ -77,20 +77,20 @@ permalink: /projects/
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 <div class="projects-landing">
-  <h1>My Projects</h1>
+  <h1>Projects</h1>
   <p>Explore what I’ve been working on, from software experiments to hands-on DIY builds</p>
 
   <div class="project-links">
     <a href="/projects/software" class="project-card">
       <i class="fa-solid fa-laptop-code"></i>
       <h2>Software</h2>
-      <p>Apps, tools, and data-driven experiments built while travelling the world.</p>
+      <p>Apps, tools, and data-driven experiments built while travelling the world</p>
     </a>
 
     <a href="/projects/diy" class="project-card">
       <i class="fa-solid fa-hammer"></i>
       <h2>DIY</h2>
-      <p>Campervan builds, gardening, woodworking, and other creative weekend projects.</p>
+      <p>Campervan builds, gardening, woodworking, and other creative weekend projects</p>
     </a>
   </div>
 </div>

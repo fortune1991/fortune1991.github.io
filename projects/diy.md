@@ -31,7 +31,7 @@ In my spare time, I also enjoy getting sime good use out of my power tool invest
 - Two bike rack, connected to brake lights. Rotates to allow boot access
 - Massive amount of storage space under bed, in kitchen and above drivers cab
 
-**Build Diary:** [Build diary can be found here](/projects/campervan)
+**Build Diary:** [Build diary can be found here](/projects/build_diaries/campervan)
 
 ## Garden
 <p align="center">
@@ -44,7 +44,7 @@ In my spare time, I also enjoy getting sime good use out of my power tool invest
 
 In short, we managed to turn an overgrown patch of nothing into a thriving veggie strip of around 25m2. In doing so, we refurbished the tired old fence, installed automated irrigation, got a new driveway installed and built a new bike storage shed. 
 
-**Build Diary:** [Build diary can be found here](/projects/garden)
+**Build Diary:** [Build diary can be found here](/projects/build_diaries/garden)
 
 ## Surf Board
 <p align="center">
@@ -55,7 +55,7 @@ In short, we managed to turn an overgrown patch of nothing into a thriving veggi
 
 **Description:** Shoutouts to my friend Alex on this one! The real instigator of this project. On the back of a surfboard shaping course at Christchurch company, Sahana, he decided he wanted to make some boards start to finish at home. I was able to join him for the ride and also purchased my own "blank". The rest was an incredibly messy, sticky and stressful journey involving lots of dust and fast setting epoxy!
 
-**Build Diary:** [Build diary can be found here](/projects/surf)
+**Build Diary:** [Build diary can be found here](/projects/build_diaries/surf)
 
 ## Backgammon Board
 <p align="center">
@@ -66,4 +66,4 @@ In short, we managed to turn an overgrown patch of nothing into a thriving veggi
 
 **Description:** Custom backgammon board as a house warming gift for my gf. Made using left over plywood from the campervan. The board layout was ink printed onto rice paper and coated with polyurethane.
 
-**Build Diary:** [Build diary can be found here](/projects/backgammon)
+**Build Diary:** [Build diary can be found here](/projects/build_diaries/backgammon)

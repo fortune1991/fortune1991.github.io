@@ -35,7 +35,7 @@ Here are some of the side projects that I've been working on during my year away
 - Feature 1
 - Feature 2
 
-**Build Diary:** [Build diary can be found here](/projects/moneypots) 
+**Build Diary:** [Build diary can be found here](/projects/build_diaries/moneypots) 
 
 **GitHub:** [Link to repository](#)
 
