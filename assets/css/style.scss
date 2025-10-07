@@ -67,7 +67,10 @@
   }
 }
 
-/* --- Reduce top padding of the sidebar --- */
-.sidebar-wrapper {
-  padding-top: 2rem; 
+/* --- Sidebar padding fixes for Minima/Minimalist theme --- */
+#sidebar .site-title,
+#sidebar .site-description,
+#sidebar ul {
+    margin-top: 0;
+    padding-top: 0;
 }
