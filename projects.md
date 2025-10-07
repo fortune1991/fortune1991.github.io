@@ -87,7 +87,7 @@ permalink: /projects/
 
 <div class="projects-landing">
   <h1>Projects</h1>
-  <p>Explore what I’ve been working on, from software experiments to hands-on DIY builds</p>
+  <p>Explore what I’ve been working on</p>
 
   <div class="project-links">
     <a href="/projects/software/" class="project-card">
