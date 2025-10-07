@@ -31,10 +31,11 @@ permalink: /projects/
   max-width: 700px;
 }
 
-/* Two cards side by side, centered, max combined width 850px */
+/* Two cards side by side within 850px */
 .project-links {
   display: flex;
   justify-content: center;
+  align-items: stretch;
   gap: 2rem;
   flex-wrap: wrap;
   max-width: 850px;
@@ -44,8 +45,8 @@ permalink: /projects/
   background: #f9f9f9;
   border-radius: 1rem;
   padding: 2rem;
-  width: 100%;
-  max-width: 400px; /* two cards fit side by side within 850px total */
+  flex: 1 1 350px; /* flexible width */
+  max-width: 400px; /* never exceed half of 850px */
   text-align: center;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
   transition: all 0.3s ease;
@@ -77,6 +78,19 @@ permalink: /projects/
   color: #666;
   font-size: 1rem;
 }
+
+/* Responsive stacking for narrow screens */
+@media (max-width: 768px) {
+  .project-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-card {
+    max-width: 500px;
+    width: 100%;
+  }
+}
 </style>
 
 <!-- Include Font Awesome (for icons) -->
@@ -100,3 +114,4 @@ permalink: /projects/
     </a>
   </div>
 </div>
+
