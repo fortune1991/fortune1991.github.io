@@ -8,26 +8,24 @@ permalink: /projects/
 /* --- Projects Landing Page Styling --- */
 .projects-landing {
   display: flex;
-  flex-direction: row;         /* 👈 side-by-side layout */
-  justify-content: center;
-  align-items: baseline;       /* 👈 aligns text neatly */
-  gap: 10px;                   /* 👈 spacing between h1 and p */
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   margin: 0.5rem auto;
   max-width: 850px;
   padding: 0.5rem;
-  text-align: center;
 }
 
 .projects-landing h1 {
   font-size: 2em;
+  margin-bottom: 1rem;
   color: #222;
-  margin: 0; /* remove default top/bottom margin */
 }
 
 .projects-landing p {
   font-size: 1.2rem;
   color: #555;
-  margin: 0; /* remove default top/bottom margin */
+  margin-bottom: 3rem;
 }
 
 .project-links {
@@ -77,10 +75,6 @@ permalink: /projects/
 
 /* --- Responsive for phones --- */
 @media (max-width: 600px) {
-  .projects-landing {
-    flex-direction: column; /* 👈 stack title and paragraph vertically */
-  }
-
   .project-card {
     width: 90%; /* reduce width on small screens */
     max-width: 300px; /* optional, caps the max width */
@@ -94,18 +88,20 @@ permalink: /projects/
 <div class="projects-landing">
   <h1>Projects</h1>
   <p>Explore what I’ve been working on:</p>
+
+  <div class="project-links">
+    <a href="/projects/software/" class="project-card">
+      <i class="fa-solid fa-laptop-code"></i>
+      <h2>Software</h2>
+      <p>Apps, tools, and data-driven experiments</p>
+    </a>
+
+    <a href="/projects/diy/" class="project-card">
+      <i class="fa-solid fa-hammer"></i>
+      <h2>DIY</h2>
+      <p>Campervan builds, gardening, woodworking, and other creative weekend projects</p>
+    </a>
+  </div>
 </div>
 
-<div class="project-links">
-  <a href="/projects/software/" class="project-card">
-    <i class="fa-solid fa-laptop-code"></i>
-    <h2>Software</h2>
-    <p>Apps, tools, and data-driven experiments</p>
-  </a>
 
-  <a href="/projects/diy/" class="project-card">
-    <i class="fa-solid fa-hammer"></i>
-    <h2>DIY</h2>
-    <p>Campervan builds, gardening, woodworking, and other creative weekend projects</p>
-  </a>
-</div>
