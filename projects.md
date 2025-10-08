@@ -32,7 +32,7 @@ permalink: /projects/
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 0.5rem;
+  gap: 1.5rem;
 }
 
 .project-card {
@@ -95,8 +95,6 @@ permalink: /projects/
       <h2>Software</h2>
       <p>Apps, tools, and data-driven experiments</p>
     </a>
-
-    <p>
 
     <a href="/projects/diy/" class="project-card">
       <i class="fa-solid fa-hammer"></i>
