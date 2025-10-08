@@ -187,9 +187,14 @@ Thanks to Clare for all her help on this one! In August 2023 we cracked on with 
   <img src="/assets/img/van/blinds_carpet/blinds_1.jpg" alt="blinds_1" width="850">
 </p>
 
-**Carpet lining**
+**Carpet lining detail 1**
 <p align="center">
   <img src="/assets/img/van/blinds_carpet/carpet_1.jpg" alt="carpet_1" width="850">
+</p>
+
+**Carpet lining detail 2**
+<p align="center">
+  <img src="/assets/img/van/blinds_carpet/carpet_2.jpg" alt="carpet_2" width="850">
 </p>
 
 ### Awning

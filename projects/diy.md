@@ -6,7 +6,7 @@ permalink: /projects/diy/
 
 # DIY
 
-In my spare time, I enjoy getting some good use out of my power tool "investments". Here's a couple of homegrown efforts and creations.
+In my spare time, I enjoy getting some good use out of my power tool "investments". Here's some homegrown efforts and creations.
 
 ## Campervan conversion
 <p align="center">
