@@ -26,7 +26,7 @@ Here are some of the side projects that I've been working on during my year away
 
 **Demonstration Video:**
 <p align="center">
-  <iframe width="550" height="480"
+  <iframe width="600" height="338"
     src="https://www.youtube.com/embed/AugEfShF2M0"
     title="ICU Grow Demo"
     frameborder="0"
