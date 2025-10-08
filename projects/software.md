@@ -14,6 +14,7 @@ Here are some of the side projects that I've been working on during my year away
 </p>
 
 **Technologies:** Micropython, AWS, Async, Ntfy, Open API's  Raspberry Pi Pico and electronics
+
 **Description:** ICU_Grow is an IoT enabled, automated greenhouse for my garden 
 
 **Key Features:**
@@ -26,7 +27,7 @@ Here are some of the side projects that I've been working on during my year away
 
 **Demonstration Video:**
 <p align="center">
-  <iframe width="600" height="338"
+  <iframe width="650" height="360"
     src="https://www.youtube.com/embed/AugEfShF2M0"
     title="ICU Grow Demo"
     frameborder="0"
