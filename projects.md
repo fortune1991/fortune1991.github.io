@@ -96,7 +96,7 @@ permalink: /projects/
       <p>Apps, tools, and data-driven experiments</p>
     </a>
 
-    <br>
+    <p>
 
     <a href="/projects/diy/" class="project-card">
       <i class="fa-solid fa-hammer"></i>
