@@ -8,24 +8,26 @@ permalink: /projects/
 /* --- Projects Landing Page Styling --- */
 .projects-landing {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+  flex-direction: row;         /* 👈 side-by-side layout */
+  justify-content: center;
+  align-items: baseline;       /* 👈 aligns text neatly */
+  gap: 10px;                   /* 👈 spacing between h1 and p */
   margin: 0.5rem auto;
   max-width: 850px;
   padding: 0.5rem;
+  text-align: center;
 }
 
 .projects-landing h1 {
   font-size: 2em;
-  margin-bottom: 1rem;
   color: #222;
+  margin: 0; /* remove default top/bottom margin */
 }
 
 .projects-landing p {
   font-size: 1.2rem;
   color: #555;
-  margin-bottom: 3rem;
+  margin: 0; /* remove default top/bottom margin */
 }
 
 .project-links {
@@ -75,6 +77,10 @@ permalink: /projects/
 
 /* --- Responsive for phones --- */
 @media (max-width: 600px) {
+  .projects-landing {
+    flex-direction: column; /* 👈 stack title and paragraph vertically */
+  }
+
   .project-card {
     width: 90%; /* reduce width on small screens */
     max-width: 300px; /* optional, caps the max width */
@@ -86,23 +92,20 @@ permalink: /projects/
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 <div class="projects-landing">
-  <h1 style="display:inline; margin-right:10px;">Projects</h1>
-  <p style="display:inline;">Explore what I’ve been working on:</p>
+  <h1>Projects</h1>
+  <p>Explore what I’ve been working on:</p>
 </div>
 
-  <div class="project-links">
-    <a href="/projects/software/" class="project-card">
-      <i class="fa-solid fa-laptop-code"></i>
-      <h2>Software</h2>
-      <p>Apps, tools, and data-driven experiments</p>
-    </a>
+<div class="project-links">
+  <a href="/projects/software/" class="project-card">
+    <i class="fa-solid fa-laptop-code"></i>
+    <h2>Software</h2>
+    <p>Apps, tools, and data-driven experiments</p>
+  </a>
 
-    <a href="/projects/diy/" class="project-card">
-      <i class="fa-solid fa-hammer"></i>
-      <h2>DIY</h2>
-      <p>Campervan builds, gardening, woodworking, and other creative weekend projects</p>
-    </a>
-  </div>
+  <a href="/projects/diy/" class="project-card">
+    <i class="fa-solid fa-hammer"></i>
+    <h2>DIY</h2>
+    <p>Campervan builds, gardening, woodworking, and other creative weekend projects</p>
+  </a>
 </div>
-
-
