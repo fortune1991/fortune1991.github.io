@@ -4,133 +4,146 @@ permalink: /projects/build_diaries/surf/
 ---
 # Surboard Build Diary
 
-## Blank
-February 2023, I purchased the van from a dealer in Christchurch. It was previously a tradies van and had never been used as a campervan before.
+## Shaping
 
-**Outside**
+May 2022, I purchased a "blank" from Sadhana surfboards in Christchurch. This is basically an overside piece of foam built around a stringer, that needs cutting, shaping and sanding back to your intended surfboard shape. I went through some design options with Alex and we settled on a plan to build a "Performance Longboard" that would still allow me to "Hang Ten" on the off chance I don’t wipe out immediately.
+
+**Rough cuts, sanding and hoovering**
 <p align="center">
-  <img src="/assets/img/van/empty/empty_1.jpg" alt="empty_1" width="850">
-</p>
-**Inside**
-<p align="center">
-  <img src="/assets/img/van/empty/empty_2.jpg" alt="empty_2" width="850">
+  <img src="/assets/img/surf/surf_1.jpg" alt="surf_1" width="850">
 </p>
 
-## Design Snippets
-Here's a few examples of the CAD work I did before starting the build. Schematic was made in Powerpoint and the 3D model (to scale) in Google Sketchup.
-
-**Electrical Schematic**
+**Smoothing out the imperfetions**
 <p align="center">
-  <img src="/assets/img/van/design/schematic_1.jpg" alt="schematic_1" width="850">
+  <img src="/assets/img/surf/surf_2.jpg" alt="surf_2" width="850">
 </p>
 
-**Google Sketch-up Layout**
+**Action shot**
 <p align="center">
-  <img src="/assets/img/van/design/layout_1.jpg" alt="layout_1" width="850">
+  <img src="/assets/img/surf/surf_3.jpg" alt="surf_3" width="850">
 </p>
 
-## Build
-I had some help with the build aspects of the project. Mostly from this guy :D
-
-**Quality Control Inspector**
+**Shaping the rails**
 <p align="center">
-  <img src="/assets/img/van/inspector.jpg" alt="inspector" width="850">
+  <img src="/assets/img/surf/surf_3point5.jpg" alt="surf_3point5" width="850">
 </p>
 
-**Roof**
+## Graphics
 
-March 2023, I started the build of the project by working on the roof. The first step was to remove the original roof linings. I insulated the underside with 20mm foam and the inside with a funky moroccan fabric. I designed a custom detail and frame to support the fan, which was tricky with the curved roof! I was very happy with the result. I also repainted and then soundproofed the underside of the metal roof to prevent rust and noise ingress into the van. On the external roof I installed the solar panel and ventilation fan.
+I named my board "Donna Sumner" — a playful nod to the queen of disco and my local surf break.
 
-Insulation and roof fabric lining:
+**Donna Sumner Logo**
 <p align="center">
-  <img src="/assets/img/van//roof/roof_1.jpg" alt="roof_1" width="850">
+  <img src="/assets/img/surf/surf_4.jpg" alt="surf_4" width="850">
 </p>
 
-Roof fan framing detail:
+**Complete with a Disco Ball graphic and photo of the Queen herself**
 <p align="center">
-  <img src="/assets/img/van//roof/roof_2.jpg" alt="roof_2" width="850">
+  <img src="/assets/img/surf/surf_5.jpg" alt="surf_5" width="850">
 </p>
 
-First section installed:
+## Glassing
+
+Next up was the scary part, fibre glassing the boards! Alex had experience with shaping on his previous course, but glassing was new to us both. He had a horror story from the first attempt on his own board. Turns out for us amaterurs, it's way easier as a two person job. Even so, you gotta be quick!
+
+**Donna Sumner getting ready for the treatment**
 <p align="center">
-  <img src="/assets/img/van//roof/roof_3.jpg" alt="roof_3" width="850">
+  <img src="/assets/img/surf/surf_7.jpg" alt="surf_7" width="850">
 </p>
 
-Acoustic rubber lining installed to reduce noise:
+**Alex's board complete with funky fabric on the glassing table**
 <p align="center">
-  <img src="/assets/img/van//roof/roof_4.jpg" alt="roof_4" width="850">
+  <img src="/assets/img/surf/surf_7point25.jpg" alt="surf_7point25" width="850">
 </p>
 
-Marking out hole for roof fan:
+**Alex's board complete with funky fabric on the glassing table**
 <p align="center">
-  <img src="/assets/img/van//roof/roof_5.jpg" alt="roof_5" width="850">
+  <img src="/assets/img/surf/surf_7point25.jpg" alt="surf_7point25" width="850">
 </p>
 
-Made the cut!
+**Donna Sumner drying up after the first pour**
 <p align="center">
-  <img src="/assets/img/van//roof/roof_6.jpg" alt="roof_6" width="850">
+  <img src="/assets/img/surf/surf_7point5.jpg" alt="surf_7point5" width="850">
 </p>
 
-Solar panel installation:
+**Textured look after the resin had dried**
 <p align="center">
-  <img src="/assets/img/van//roof/roof_7.jpg" alt="roof_7" width="850">
+  <img src="/assets/img/surf/surf_9.jpg" alt="surf_9" width="850">
 </p>
 
-Roof fan install:
+**Alex decorating his board inbetween layers of resin**
 <p align="center">
-  <img src="/assets/img/van//roof/roof_8.jpg" alt="roof_8" width="850">
+  <img src="/assets/img/surf/surf_9point5.jpg" alt="surf_9point5" width="850">
 </p>
 
-View from the roof:
+## Fin Boxes
+
+Next up was to install the fin boxes. This required a router to cut out the resin and foam. The box is then mounted in place with a second pour.
+
+**Fin box holes routed out using a template**
 <p align="center">
-  <img src="/assets/img/van//roof/roof_9.jpg" alt="roof_9" width="850">
+  <img src="/assets/img/surf/surf_10point5.jpg" alt="surf_10point5" width="850">
 </p>
 
-**Floor**
-
-May 2023, after returning from holiday I started working on the floor. First step was preparing the floor for repainting to prevent any rust in the future. After painting, I was able to glue some wooden battens to the surface, which would be used to screw in the plywood boards. Next step was cutting the plywood to shape, followed by attaching 30mm polystyrene insulation to the underside. I had to route out some channels in some sections of the insulation to accommodate some cable conduits. Next step was to cut the vinyl flooring to shape. Once installed, I was then able to drill the holes through the floor required for the diesel heater intake and exhaust pipes.
-
-Preparing the floor for painting:
+**How fin boxes should be mounted, with a second pour of resin**
 <p align="center">
-  <img src="/assets/img/van//floor/floor_1.jpg" alt="floor_1" width="850">
+  <img src="/assets/img/surf/surf_10point25.jpg" alt="surf_10point25" width="850">
 </p>
 
-Freshly painted floor:
+**Poor Alex made a whoopsey! 🤣**
 <p align="center">
-  <img src="/assets/img/van//floor/floor_2.jpg" alt="floor_2" width="850">
+  <img src="/assets/img/surf/surf_6.jpg" alt="surf_6" width="850">
 </p>
 
-Installing floor batons:
+## Sanding and Polishing
+
+Next up was much sanding and polishing! This work was insanely dusty, so had to be done outside.
+
+**Sanding in the sunshine**
 <p align="center">
-  <img src="/assets/img/van//floor/floor_3.jpg" alt="floor_3" width="850">
+  <img src="/assets/img/surf/surf_10.jpg" alt="surf_10" width="850">
 </p>
 
-Routing out space for cable conduits:
+## Finished Boards
+
+After many winter evenings work, our boards were finally complete! Such an awesome project resulting in something I'm super proud of and get to keep. Thanks Alex!
+
+**Donna Sumner nose graphics**
 <p align="center">
-  <img src="/assets/img/van//floor/floor_4.jpg" alt="floor_4" width="850">
+  <img src="/assets/img/surf/surf_11.jpg" alt="surf_11" width="850">
 </p>
 
-Cutting out vinyl flooring:
+**Donna Sumner in the shop**
 <p align="center">
-  <img src="/assets/img/van//floor/floor_5.jpg" alt="floor_5" width="850">
+  <img src="/assets/img/surf/surf_12.jpg" alt="surf_12" width="850">
 </p>
 
-Installing plywood floor boards:
+**Fin boxes the correct orientation this time**
 <p align="center">
-  <img src="/assets/img/van//floor/floor_6.jpg" alt="floor_6" width="850">
+  <img src="/assets/img/surf/surf_13.jpg" alt="surf_13" width="850">
 </p>
 
-Finished floor:
+**Donna Sumner Logo**
 <p align="center">
-  <img src="/assets/img/van//floor/floor_7.jpg" alt="floor_7" width="850">
+  <img src="/assets/img/surf/surf_14.jpg" alt="surf_14" width="850">
 </p>
 
-Finished floor edge detail:
+**Disco Ball Graphic**
 <p align="center">
-  <img src="/assets/img/van//floor/floor_8.jpg" alt="floor_8" width="850">
+  <img src="/assets/img/surf/surf_15.jpg" alt="surf_15" width="850">
 </p>
 
-Drilling floor holes for diesel heater intake and exhaust:
+**Three DIY boards in a row**
 <p align="center">
-  <img src="/assets/img/van//floor/floor_9.jpg" alt="floor_9" width="850">
+  <img src="/assets/img/surf/surf_16.jpg" alt="surf_16" width="850">
+</p>
+
+**Testing out the board on inside waves first**
+<p align="center">
+  <img src="/assets/img/surf/surf_17.jpg" alt="surf_17" width="850">
+</p>
+
+**Topside of Alex's new board complete with funky fabric pattern**
+<p align="center">
+  <img src="/assets/img/surf/surf_18.jpg" alt="surf_18" width="850">
 </p>
