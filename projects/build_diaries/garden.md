@@ -14,17 +14,17 @@ You can see on the right handside all of the overgrown trees, agapanthus and fol
   <img src="/assets/img/garden/garden_1.jpg" alt="garden_1" width="850">
 </p>
 
-**Clare started some hard yakka on the tidying up**
+**Clare started on some hard yakka tidying up the space**
 <p align="center">
   <img src="/assets/img/garden/garden_2.jpg" alt="garden_2" width="850">
 </p>
 
-**I joined and we got carried away..**
+**I joined and we got carried away.. Looks like we could maybe fit some veggies in there?**
 <p align="center">
   <img src="/assets/img/garden/garden_3.jpg" alt="garden_3" width="850">
 </p>
 
-**We got some help from our friend Yaz to deal with some of the bigger and more persistent trees and stumps**
+**We got some help from our friend Yaz to remove some of the bigger and more persistent trees and stumps**
 <p align="center">
   <img src="/assets/img/garden/garden_4.jpg" alt="garden_4" width="850">
 </p>
@@ -101,7 +101,7 @@ Next, we worked on prepping the area for the new driveway install.
   <img src="/assets/img/garden/garden_14.jpg" alt="garden_14" width="850">
 </p>
 
-**View from the veggie patch**
+**View from the future veggie patch**
 <p align="center">
   <img src="/assets/img/garden/garden_16.jpg" alt="garden_16" width="850">
 </p>

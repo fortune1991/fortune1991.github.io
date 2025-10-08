@@ -18,11 +18,14 @@ Here are some of the side projects that I've been working on during my year away
 **Description:** ICU_Grow is an IoT enabled, automated greenhouse, designed for my garden 
 
 **Key Features:**
-- Feature 1
-- Feature 2  
-- Feature 3
+- Temperature, Humidity, Light and Plant Moisture Sensors
+- LCD Screen to display data to users. Includes current condition plus 24hr average, high and low readings
+- Actuated roof ventilators, heating mats and cooling fans to control environmental conditions
+- Irrigation feedback
+- Data pipeline to store logs and analyse long term trends of environmental conditions
+- Phone notifications and alerts for extreme conditions
 
-**Demonstration Video:** [Link to video](www.youtube.com)
+**Demonstration Video:** [Link to video](https://youtu.be/AugEfShF2M0)
 
 **GitHub:** [Link to repository](https://www.github.com/fortune1991)
 
