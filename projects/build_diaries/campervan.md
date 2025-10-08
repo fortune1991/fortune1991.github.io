@@ -161,7 +161,7 @@ June 2023, I started work on the insulation. For the floor, I used 25mm polystyr
 
 ### Electronics
 
-July 2023, I started work on the electrics design and build in July. Peak NZ winter, so an excellent time for inside jobs! Many of the cables I had prerouted before installing the insulation. 
+July 2023, I started work on the electrics design and build. It was peak NZ winter, so an excellent time for inside jobs! Many of the cables I had prerouted in the van before installing the insulation. 
 
 **Wiring up the Electrical board in the living room**
 <p align="center">
@@ -203,7 +203,7 @@ September 2023. Next step was the awning. Easy job this one. Drill two brackets 
 
 ### Progress Check
 
-September 2023, at this point I had a (useable) empty shell of a campervan 😀 
+September 2023, at this point we had a (useable) empty shell of a campervan 😀 
 
 **Inside shell**
 <p align="center">

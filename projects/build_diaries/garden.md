@@ -6,7 +6,7 @@ permalink: /projects/build_diaries/garden/
 
 ## Moving in
 
-In 2024, we purchased our first home 😀 At the time, we didn't really have any short term ambitions for the garden...
+In 2024, we purchased our first home 😀 At the time, we didn't really have many short term ambitions for the garden...
 You can see on the right handside all of the overgrown trees, agapanthus and foliage.
 
 **Outside**
@@ -14,12 +14,12 @@ You can see on the right handside all of the overgrown trees, agapanthus and fol
   <img src="/assets/img/garden/garden_1.jpg" alt="garden_1" width="850">
 </p>
 
-**Clare started to slowly chip away at some tidying up**
+**Clare started some hard yakka on the tidying up**
 <p align="center">
   <img src="/assets/img/garden/garden_2.jpg" alt="garden_2" width="850">
 </p>
 
-**I started to help and we got carried away..**
+**I joined and we got carried away..**
 <p align="center">
   <img src="/assets/img/garden/garden_3.jpg" alt="garden_3" width="850">
 </p>

@@ -86,8 +86,9 @@ permalink: /projects/
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 <div class="projects-landing">
-  <h1>Projects</h1>
-  <p>Explore what I’ve been working on:</p>
+  <h1 style="display:inline; margin-right:10px;">Projects</h1>
+  <p style="display:inline;">Explore what I’ve been working on:</p>
+</div>
 
   <div class="project-links">
     <a href="/projects/software/" class="project-card">

@@ -66,5 +66,3 @@ In the end, we transformed an overgrown patch into a thriving veggie strip of ab
 **Skills:** Woodworking, Graphic Design, Paiting
 
 **Description:** Custom backgammon board made as a housewarming gift for my girlfriend. I used leftover plywood from the campervan, cutting it into strips, regluing, and planing it back into a board. The backgammon layout was ink-printed onto rice paper and finished with a coat of polyurethane.
-
-**Build Diary:** [Build diary can be found here](/projects/build_diaries/backgammon)
