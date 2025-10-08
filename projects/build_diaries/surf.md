@@ -6,7 +6,7 @@ permalink: /projects/build_diaries/surf/
 
 ## Shaping
 
-May 2022, I purchased a "blank" from Sadhana surfboards in Christchurch. This is basically an overside piece of foam built around a stringer, that needs cutting, shaping and sanding back to your intended surfboard shape. I went through some design options with Alex and we settled on a plan to build a "Performance Longboard" that would still allow me to "Hang Ten" on the off chance I don’t wipe out immediately.
+May 2022, I purchased a "blank" from Sadhana surfboards in Christchurch. This is basically an oversized piece of foam built around a stringer. It needs cutting, shaping and sanding back to your intended surfboard shape. I went through some design options with Alex and we settled on a plan to build a "Performance Longboard" that would still allow me to "Hang Ten" on the off chance I don’t wipe out immediately.
 
 **Rough cuts, sanding and hoovering**
 <p align="center">
@@ -37,7 +37,7 @@ I named my board "Donna Sumner" — a playful nod to the queen of disco and my l
   <img src="/assets/img/surf/surf_4.jpg" alt="surf_4" width="850">
 </p>
 
-**Complete with a Disco Ball graphic and photo of the Queen herself**
+**The board also has a Disco Ball graphic and photo of the Queen herself**
 <p align="center">
   <img src="/assets/img/surf/surf_5.jpg" alt="surf_5" width="850">
 </p>
@@ -49,11 +49,6 @@ Next up was the scary part, fibre glassing the boards! Alex had experience with 
 **Donna Sumner getting ready for the treatment**
 <p align="center">
   <img src="/assets/img/surf/surf_7.jpg" alt="surf_7" width="850">
-</p>
-
-**Alex's board complete with funky fabric on the glassing table**
-<p align="center">
-  <img src="/assets/img/surf/surf_7point25.jpg" alt="surf_7point25" width="850">
 </p>
 
 **Alex's board complete with funky fabric on the glassing table**
