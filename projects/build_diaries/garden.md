@@ -55,7 +55,7 @@ We had new drainage pipes installed (old clay to new PVC). We agreed with the ne
 
 ## Soil removal
 
-To make way for the new veggie, there was a fair amount of soil that needed removing from the property. 20 trailer loads in fact! Yaz helped us do the hard yards on this task. Afterwards, we had a tree stump grinder come through to clear the area.
+To make way for the new veggie patch, there was a fair amount of soil that needed removing from the property. 20 trailer loads! Yaz helped us do the hard yards on this task. Afterwards, we had a tree stump grinder come through to clear the area.
 
 **Soil removed**
 <p align="center">
