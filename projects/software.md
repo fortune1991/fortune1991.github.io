@@ -13,9 +13,8 @@ Here are some of the side projects that I've been working on during my year away
   <img src="/assets/img/icu_grow.jpg" alt="ICU_Grow image" width="850">
 </p>
 
-**Technologies:** Python, JavaScript, React 
-
-**Description:** ICU_Grow is an IoT enabled, automated greenhouse, designed for my garden 
+**Technologies:** Micropython, AWS, Async, Ntfy, Open API's  Raspberry Pi Pico and electronics
+**Description:** ICU_Grow is an IoT enabled, automated greenhouse for my garden 
 
 **Key Features:**
 - Temperature, Humidity, Light and Plant Moisture Sensors
@@ -25,7 +24,15 @@ Here are some of the side projects that I've been working on during my year away
 - Data pipeline to store logs and analyse long term trends of environmental conditions
 - Phone notifications and alerts for extreme conditions
 
-**Demonstration Video:** [Link to video](https://youtu.be/AugEfShF2M0)
+**Demonstration Video:**
+<p align="center">
+  <iframe width="850" height="480"
+    src="https://www.youtube.com/embed/AugEfShF2M0"
+    title="ICU Grow Demo"
+    frameborder="0"
+    allowfullscreen>
+  </iframe>
+</p>
 
 **GitHub:** [Link to repository](https://www.github.com/fortune1991)
 
@@ -39,7 +46,6 @@ Here are some of the side projects that I've been working on during my year away
 - Feature 2
 
 **Build Diary:** [Build diary can be found here](/projects/build_diaries/moneypots) 
-
 **GitHub:** [Link to repository](#)
 
 ## Quantifying Energy Poverty in Chicago 
