@@ -32,7 +32,7 @@ permalink: /projects/
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 2.5rem;
 }
 
 .project-card {
