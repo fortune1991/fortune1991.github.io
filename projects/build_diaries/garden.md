@@ -24,7 +24,7 @@ You can see on the right handside all of the overgrown trees, agapanthus and fol
   <img src="/assets/img/garden/garden_3.jpg" alt="garden_3" width="850">
 </p>
 
-**We got some help from our friend Yaz to deal with some of the bigger and persistent trees and stumps**
+**We got some help from our friend Yaz to deal with some of the bigger and more persistent trees and stumps**
 <p align="center">
   <img src="/assets/img/garden/garden_4.jpg" alt="garden_4" width="850">
 </p>
@@ -38,12 +38,12 @@ We had new drainage pipes installed (old clay to new PVC). We agreed with the ne
   <img src="/assets/img/garden/garden_5.jpg" alt="garden_5" width="850">
 </p>
 
-**We also plan to install a new bike shed. We dug out the foundation ready for fresh concrete**
+**We also planned to install a new bike shed. We dug out the foundation ready for fresh concrete**
 <p align="center">
   <img src="/assets/img/garden/garden_6.jpg" alt="garden_6" width="850">
 </p>
 
-**There will be an automated irrigation system used to water the new veggie patch. Here I've marked out the pipe route**
+**There will be an automated irrigation system used to water the new veggie patch. Here I've marked out the new pipe route**
 <p align="center">
   <img src="/assets/img/garden/garden_7.jpg" alt="garden_7" width="850">
 </p>
@@ -91,11 +91,6 @@ Next, we worked on prepping the area for the new driveway install.
   <img src="/assets/img/garden/garden_12.jpg" alt="garden_12" width="850">
 </p>
 
-**Boxing out the new bike shed foundation**
-<p align="center">
-  <img src="/assets/img/garden/garden_12.jpg" alt="garden_12" width="850">
-</p>
-
 **Installing bamboo fence panels and removing the existing driveway. Running the new irrigation pipe**
 <p align="center">
   <img src="/assets/img/garden/garden_13.jpg" alt="garden_13" width="850">
@@ -113,17 +108,13 @@ Next, we worked on prepping the area for the new driveway install.
 
 ## Building bike sheds and gardening
 
-Next, I worked on building the new bike shed, whilst Clare (finally!) cracked on with the veggie patch.
+Next, we worked on building the new bike shed, whilst Clare (finally!) cracked on with the veggie patch.
 
 **Me and Yaz building the bike shed**
 <p align="center">
   <img src="/assets/img/garden/garden_17.jpg" alt="garden_17" width="850">
 </p>
 
-**Me and Yaz building the bike shed**
-<p align="center">
-  <img src="/assets/img/garden/garden_17.jpg" alt="garden_17" width="850">
-</p>
 
 **Bike shed in place**
 <p align="center">
