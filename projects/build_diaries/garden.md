@@ -2,135 +2,140 @@
 title: "Garden Build Diary"
 permalink: /projects/build_diaries/garden/
 ---
-# Campervan Build Diary
+# Garden Build Diary
 
-## Empty Van
-February 2023, I purchased the van from a dealer in Christchurch. It was previously a tradies van and had never been used as a campervan before.
+## Moving in
+
+In 2024, we purchased our first home 😀 At the time, we didn't really have any short term ambitions for the garden...
+You can see on the right handside all of the overgrown trees, agapanthus and foliage.
 
 **Outside**
 <p align="center">
-  <img src="/assets/img/van/empty/empty_1.jpg" alt="empty_1" width="850">
-</p>
-**Inside**
-<p align="center">
-  <img src="/assets/img/van/empty/empty_2.jpg" alt="empty_2" width="850">
+  <img src="/assets/img/garden/garden_1.jpg" alt="garden_1" width="850">
 </p>
 
-## Design Snippets
-Here's a few examples of the CAD work I did before starting the build. Schematic was made in Powerpoint and the 3D model (to scale) in Google Sketchup.
-
-**Electrical Schematic**
+**Clare started to slowly chip away at some tidying up**
 <p align="center">
-  <img src="/assets/img/van/design/schematic_1.jpg" alt="schematic_1" width="850">
+  <img src="/assets/img/garden/garden_2.jpg" alt="garden_2" width="850">
 </p>
 
-**Google Sketch-up Layout**
+**I started to help and we got carried away..**
 <p align="center">
-  <img src="/assets/img/van/design/layout_1.jpg" alt="layout_1" width="850">
+  <img src="/assets/img/garden/garden_3.jpg" alt="garden_3" width="850">
 </p>
 
-## Build
-I had some help with the build aspects of the project. Mostly from this guy :D
-
-**Quality Control Inspector**
+**We got some help from our friend Yaz to deal with some of the bigger and persistent trees and stumps**
 <p align="center">
-  <img src="/assets/img/van/inspector.jpg" alt="inspector" width="850">
+  <img src="/assets/img/garden/garden_4.jpg" alt="garden_4" width="850">
 </p>
 
-**Roof**
+## New drainage pipes and driveway
 
-March 2023, I started the build of the project by working on the roof. The first step was to remove the original roof linings. I insulated the underside with 20mm foam and the inside with a funky moroccan fabric. I designed a custom detail and frame to support the fan, which was tricky with the curved roof! I was very happy with the result. I also repainted and then soundproofed the underside of the metal roof to prevent rust and noise ingress into the van. On the external roof I installed the solar panel and ventilation fan.
+We had new drainage pipes installed (old clay to new PVC). We agreed with the neighbour to upgrade the old driveway at the same time.
 
-Insulation and roof fabric lining:
+**New drain pipes installed**
 <p align="center">
-  <img src="/assets/img/van//roof/roof_1.jpg" alt="roof_1" width="850">
+  <img src="/assets/img/garden/garden_5.jpg" alt="garden_5" width="850">
 </p>
 
-Roof fan framing detail:
+**We also plan to install a new bike shed. We dug out the foundation ready for fresh concrete**
 <p align="center">
-  <img src="/assets/img/van//roof/roof_2.jpg" alt="roof_2" width="850">
+  <img src="/assets/img/garden/garden_6.jpg" alt="garden_6" width="850">
 </p>
 
-First section installed:
+**There will be an automated irrigation system used to water the new veggie patch. Here I've marked out the pipe route**
 <p align="center">
-  <img src="/assets/img/van//roof/roof_3.jpg" alt="roof_3" width="850">
+  <img src="/assets/img/garden/garden_7.jpg" alt="garden_7" width="850">
 </p>
 
-Acoustic rubber lining installed to reduce noise:
+**More digging!**
 <p align="center">
-  <img src="/assets/img/van//roof/roof_4.jpg" alt="roof_4" width="850">
+  <img src="/assets/img/garden/garden_8.jpg" alt="garden_8" width="850">
 </p>
 
-Marking out hole for roof fan:
+## Soil removal
+
+To make way for the new veggie, there was a fair amount of soil that needed removing from the property. 20 trailer loads in fact! Yaz helped us do the hard yards on this task. Afterwards, we had a tree stump grinder come through to clear the area.
+
+**Soil removed**
 <p align="center">
-  <img src="/assets/img/van//roof/roof_5.jpg" alt="roof_5" width="850">
+  <img src="/assets/img/garden/garden_9.jpg" alt="garden_9" width="850">
 </p>
 
-Made the cut!
+**Tree stumps gone!**
 <p align="center">
-  <img src="/assets/img/van//roof/roof_6.jpg" alt="roof_6" width="850">
+  <img src="/assets/img/garden/garden_10.jpg" alt="garden_10" width="850">
 </p>
 
-Solar panel installation:
+**Thanks Yaz**
 <p align="center">
-  <img src="/assets/img/van//roof/roof_7.jpg" alt="roof_7" width="850">
+  <img src="/assets/img/garden/garden0point5.jpg" alt="garden_0point5" width="850">
 </p>
 
-Roof fan install:
+**You deserve a steak!**
 <p align="center">
-  <img src="/assets/img/van//roof/roof_8.jpg" alt="roof_8" width="850">
+  <img src="/assets/img/garden/garden_0.jpg" alt="garden_0" width="850">
 </p>
 
-View from the roof:
+## Prepping for the new driveway
+
+Next, we worked on prepping the area for the new driveway install.
+
+**Straightening out the fence**
 <p align="center">
-  <img src="/assets/img/van//roof/roof_9.jpg" alt="roof_9" width="850">
+  <img src="/assets/img/garden/garden_11.jpg" alt="garden_11" width="850">
 </p>
 
-**Floor**
-
-May 2023, after returning from holiday I started working on the floor. First step was preparing the floor for repainting to prevent any rust in the future. After painting, I was able to glue some wooden battens to the surface, which would be used to screw in the plywood boards. Next step was cutting the plywood to shape, followed by attaching 30mm polystyrene insulation to the underside. I had to route out some channels in some sections of the insulation to accommodate some cable conduits. Next step was to cut the vinyl flooring to shape. Once installed, I was then able to drill the holes through the floor required for the diesel heater intake and exhaust pipes.
-
-Preparing the floor for painting:
+**Boxing out the new bike shed foundation**
 <p align="center">
-  <img src="/assets/img/van//floor/floor_1.jpg" alt="floor_1" width="850">
+  <img src="/assets/img/garden/garden_12.jpg" alt="garden_12" width="850">
 </p>
 
-Freshly painted floor:
+**Boxing out the new bike shed foundation**
 <p align="center">
-  <img src="/assets/img/van//floor/floor_2.jpg" alt="floor_2" width="850">
+  <img src="/assets/img/garden/garden_12.jpg" alt="garden_12" width="850">
 </p>
 
-Installing floor batons:
+**Installing bamboo fence panels and removing the existing driveway. Running the new irrigation pipe**
 <p align="center">
-  <img src="/assets/img/van//floor/floor_3.jpg" alt="floor_3" width="850">
+  <img src="/assets/img/garden/garden_13.jpg" alt="garden_13" width="850">
 </p>
 
-Routing out space for cable conduits:
+**New driveway complete!**
 <p align="center">
-  <img src="/assets/img/van//floor/floor_4.jpg" alt="floor_4" width="850">
+  <img src="/assets/img/garden/garden_14.jpg" alt="garden_14" width="850">
 </p>
 
-Cutting out vinyl flooring:
+**View from the veggie patch**
 <p align="center">
-  <img src="/assets/img/van//floor/floor_5.jpg" alt="floor_5" width="850">
+  <img src="/assets/img/garden/garden_16.jpg" alt="garden_16" width="850">
 </p>
 
-Installing plywood floor boards:
+## Building bike sheds and gardening
+
+Next, I worked on building the new bike shed, whilst Clare (finally!) cracked on with the veggie patch.
+
+**Me and Yaz building the bike shed**
 <p align="center">
-  <img src="/assets/img/van//floor/floor_6.jpg" alt="floor_6" width="850">
+  <img src="/assets/img/garden/garden_17.jpg" alt="garden_17" width="850">
 </p>
 
-Finished floor:
+**Me and Yaz building the bike shed**
 <p align="center">
-  <img src="/assets/img/van//floor/floor_7.jpg" alt="floor_7" width="850">
+  <img src="/assets/img/garden/garden_17.jpg" alt="garden_17" width="850">
 </p>
 
-Finished floor edge detail:
+**Bike shed in place**
 <p align="center">
-  <img src="/assets/img/van//floor/floor_8.jpg" alt="floor_8" width="850">
+  <img src="/assets/img/garden/garden_18.jpg" alt="garden_18" width="850">
 </p>
 
-Drilling floor holes for diesel heater intake and exhaust:
+**Clare going hammer time in the veggie patch**
 <p align="center">
-  <img src="/assets/img/van//floor/floor_9.jpg" alt="floor_9" width="850">
+  <img src="/assets/img/garden/garden_19.jpg" alt="garden_19" width="850">
+</p>
+
+**And a few months later..**
+<p align="center">
+  <img src="/assets/img/garden/garden_20.jpg" alt="garden_20" width="850">
 </p>
