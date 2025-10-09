@@ -20,7 +20,7 @@ Since moving to Christchurch, I’ve kept up with making the occasional new trac
 
 <div class="bandcamp-wrapper">
   <iframe
-    src="https://bandcamp.com/EmbeddedPlayer/album=3952010727/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
+    src="https://bandcamp.com/EmbeddedPlayer/album=3952010727/size=small/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
     title="From the Top by Fortune"
     frameborder="0"
     seamless>
