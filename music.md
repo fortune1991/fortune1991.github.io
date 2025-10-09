@@ -18,6 +18,12 @@ Since moving to Christchurch, I’ve kept up with making the occasional new trac
 
 ## From the Top EP
 
+From the Top was written and recorded in my Bristol bedroom throughout winter of 2013. It was predominantly made using samples from charity shops records and some awesome collabs with my Friends Leo wood and Raven Hart. I used Logic Pro and NI Machine Mikro, Raven his guitar/keyboards and Leo her soulful vocals. 
+
+<p align="center">
+  <img src="/assets/img/fromthetop.jpg" alt="fromthetop_image" width="850">
+</p>
+
 <div class="bandcamp-player" aria-label="From The Top EP by Fortune">
   <iframe
     src="https://bandcamp.com/EmbeddedPlayer/album=3952010727/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/"
@@ -27,6 +33,7 @@ Since moving to Christchurch, I’ve kept up with making the occasional new trac
     <a href="https://lunatickrecords.bandcamp.com/album/from-the-top-2">From The Top by Fortune</a>
   </iframe>
 </div>
+<p></p>
 
 <style>
 .bandcamp-player {
