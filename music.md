@@ -39,7 +39,7 @@ Since moving to Christchurch, I’ve kept up with making the occasional new trac
 .bandcamp-container iframe {
   display: block;
   width: 100%;
-  height: auto; /* overrides Bandcamp’s fixed height */
+  height: auto !important; /* overrides Bandcamp’s fixed height */
   border: 0;
   aspect-ratio: 350 / 470; /* optional: keep proportions */
 }
@@ -132,7 +132,7 @@ Since moving to Christchurch, I’ve kept up with making the occasional new trac
 
 ## Leo and the Heist Live Video
 
-**Live performance of our track "King Again", recorded in Bristol, UK. Featured on BBC Introducing South West**
+**Live performance of our track "King Again", recorded in Bristol, UK. Featured on BBC Introducing South West Radio Station.**
 
 <p align="center">
   <div class="video-container">
