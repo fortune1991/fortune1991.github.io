@@ -18,16 +18,14 @@ Since moving to Christchurch, I’ve kept up with making the occasional new trac
 
 ## From the Top EP
 
-<p align="center">
-  <div class="bandcamp-container">
-    <iframe
-      src="https://bandcamp.com/EmbeddedPlayer/album=3952010727/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
-      title="From the Top by Fortune"
-      frameborder="0"
-      seamless>
-    </iframe>
-  </div>
-</p>
+<div class="bandcamp-container">
+  <iframe
+    src="https://bandcamp.com/EmbeddedPlayer/album=3952010727/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
+    title="From the Top by Fortune"
+    frameborder="0"
+    seamless>
+  </iframe>
+</div>
 
 <style>
 .bandcamp-container {
@@ -35,7 +33,7 @@ Since moving to Christchurch, I’ve kept up with making the occasional new trac
   width: 100%;
   max-width: 850px;
   aspect-ratio: 350 / 470;
-  margin: 0 auto;
+  margin: 0 auto; /* centers horizontally */
 }
 
 .bandcamp-container iframe {
@@ -82,6 +80,8 @@ Since moving to Christchurch, I’ve kept up with making the occasional new trac
 </style>
 
 ## Promo mix for Pirate Material in Newcastle
+
+**All vinyl UK garage mix, recorded to promote an event in Newcastle, UK**
 
 <p align="center">
   <div class="soundcloud-container">
@@ -132,6 +132,8 @@ Since moving to Christchurch, I’ve kept up with making the occasional new trac
 </style>
 
 ## Leo and the Heist Live Video
+
+**Live performance of our track "King Again", recorded in Bristol, UK. Featured on BBC Introducing South West**
 
 <p align="center">
   <div class="video-container">
