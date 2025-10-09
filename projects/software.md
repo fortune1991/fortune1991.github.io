@@ -10,19 +10,20 @@ Here are some of the side projects that I've been working on during my year away
 
 ## ICU_Grow
 <p align="center">
-  <img src="/assets/img/icu_grow.jpg" alt="ICU_Grow image" width="850">
+  <img src="/assets/img/icu_grow.jpg" alt="ICU_Grow_image" width="850">
 </p>
 
-**Technologies:** Micropython, AWS, Async, Ntfy, Open API's  Raspberry Pi Pico and electronics
+**Technologies:** Micropython, AWS, Async, Ntfy, Open API's, Raspberry Pi Pico and Electronics
 
-**Description:** ICU_Grow is an IoT enabled, automated greenhouse for my garden 
+**Description:** ICU_Grow is an IoT enabled, automated greenhouse for my garden.
 
 **Key Features:**
 - Temperature, Humidity, Light and Plant Moisture Sensors
 - LCD Screen to display data to users. Includes current condition plus 24hr average, high and low readings
+- Data logs stored on microSD card
 - Actuated roof ventilators, heating mats and cooling fans to control environmental conditions
 - Irrigation feedback
-- Data pipeline to store logs and analyse long term trends of environmental conditions
+- Cloud data pipeline to store logs, visualise data and analyse long term trends of environmental conditions
 - Phone notifications and alerts for extreme conditions
 
 **Demonstration Video:**
@@ -44,7 +45,7 @@ Here are some of the side projects that I've been working on during my year away
   width: 100%;
   max-width: 850px; /* optional max width */
   aspect-ratio: 16 / 9;
-  margin: 0 auto; /* center horizontally */
+  margin: 0 auto;
 }
 
 .video-container iframe {
@@ -59,7 +60,11 @@ Here are some of the side projects that I've been working on during my year away
 **GitHub:** [Link to repository](https://www.github.com/fortune1991)
 
 ## MoneyPots
-**Technologies:** Java, Spring Boot, MySQL  
+<p align="center">
+  <img src="/assets/img/moneypots.jpg" alt="moneypots_image" width="850">
+</p>
+
+**Technologies:** Python, MySQL, AWS, Grafana, Textualize 
 
 **Description:** Money Pots is a budgeting calculator built for travelers. It enables users to divide their savings into Vaults and Pots, helping them manage funds across different parts of a trip. A built-in budget forecasting tool estimates what your balance _should_ be at any given point to stay on track. The project has been developed iteratively, allowing me to explore the impact of new features and architectural changes within an evolving codebase.
 
@@ -68,6 +73,7 @@ Here are some of the side projects that I've been working on during my year away
 - Feature 2
 
 **Build Diary:** [Build diary can be found here](/projects/build_diaries/moneypots) 
+
 **GitHub:** [Link to repository](#)
 
 ## Quantifying Energy Poverty in Chicago 
