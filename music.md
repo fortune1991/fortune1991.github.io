@@ -31,7 +31,7 @@ Since moving to Christchurch, I’ve kept up with making the occasional new trac
 .bandcamp-container {
   position: relative;
   width: 100%;
-  max-width: 400px;
+  max-width: 800px;
   margin: 0 auto;
   overflow: hidden; /* hides any ghost spacing */
 }
