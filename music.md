@@ -6,15 +6,13 @@ permalink: /music/
 
 # Music
 
-Music has been an important part of my life since my teenage years, taking many different forms along life's journey. 
+Music has been an important part of my life since my teenage years, taking many different forms along life’s journey.
 
-I first got into turntablism through a local youth club in the UK, practicing regularly with a break dancing group. This led to a part-time job as a DJ during my university years. 
+I first got into turntablism through a local youth club in the UK, practicing regularly with a break dancing group. This led to a part-time job as a DJ during my university years.
 
-While on my placement year, I wrote and released an EP titled "From the Top" on Lunatick Records. 
+While on my placement year, I wrote and released an EP titled “From the Top” on Lunatick Records.
 
-After university, I moved to Bristol and joined a house full of musicians, where we formed a band to support our talented vocalist friend, performing as "Leo and the Heist". 
-
-Since moving to Christchurch, I’ve kept up with making the occasional new track and DJing at friends’ parties and events. On a recent trip back to the UK, I finally shipped my vinyl collection to New Zealand. I'm hoping this serves as another catalyst to get more involved with the Christchurch music scene. 
+After university, I moved to Bristol and joined a house full of musicians, where we formed a band to support our talented vocalist friend, performing as “Leo and the Heist.” Since moving to Christchurch, I’ve kept up with making the occasional new track and DJing at friends’ parties and events. On a recent trip back to the UK, I finally shipped my vinyl collection to New Zealand. I’m hoping this serves as another catalyst to get more involved with the Christchurch music scene. 
 
 ## From the Top EP
 
