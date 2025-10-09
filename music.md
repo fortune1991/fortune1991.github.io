@@ -25,8 +25,8 @@ Music has been a big part of my life since my teenage years, taking many differe
 .bandcamp-container {
   position: relative;
   width: 100%;
-  max-width: 400px; /* optional: controls how wide it grows */
-  aspect-ratio: 350 / 470; /* matches Bandcamp’s native size */
+  max-width: 850px;
+  aspect-ratio: 350 / 470;
   margin: 0 auto;
 }
 
@@ -47,8 +47,8 @@ Music has been a big part of my life since my teenage years, taking many differe
 <p align="center">
   <div class="video-container">
     <iframe
-      src="https://youtube.com/shorts/ByJwfK03lG8"
-      title="ICU Grow Demo"
+      src="https://www.youtube.com/embed/ByJwfK03lG8"
+      title="Scratching that itch"
       frameborder="0"
       allowfullscreen>
     </iframe>
@@ -59,7 +59,7 @@ Music has been a big part of my life since my teenage years, taking many differe
 .video-container {
   position: relative;
   width: 100%;
-  max-width: 850px; /* optional max width */
+  max-width: 850px;
   aspect-ratio: 16 / 9;
   margin: 0 auto;
 }
@@ -128,8 +128,8 @@ Music has been a big part of my life since my teenage years, taking many differe
 <p align="center">
   <div class="video-container">
     <iframe
-      src="https://www.youtube.com/watch?v=zTFfemV2Elo"
-      title="ICU Grow Demo"
+      src="https://www.youtube.com/embed/zTFfemV2Elo"
+      title="Leo & the Heist King Again Live Performance"
       frameborder="0"
       allowfullscreen>
     </iframe>
