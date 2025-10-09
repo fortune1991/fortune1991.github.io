@@ -6,32 +6,150 @@ permalink: /music/
 
 # Music
 
-In my spare time, I also enjoy getting sime good use out of my power tool investments :D Here's a couple of homegrown efforts and creations.
+Music has been a big part of my life since my teenage years, taking many different forms along life's journey. I first got into turntablism through a local youth club in the UK, practicing regularly with break dancing group. This led to a part-time job as a DJ during my university years. While on my placement year, I wrote and released an EP titled From the Top on Lunatick Records. After university, I moved to Bristol and joined a house full of musicians, where we formed a band to support our talented vocalist friend, performing as "Leo and the Heist". Since moving to Christchurch, I’ve kept up with making the occasional new track and DJing at friends’ parties and events. On a recent trip back to the UK, I finally shipped my vinyl collection to New Zealand. I'm hoping this serves as another catalyst to get more involved with the Christchurch music scene. 
 
-## Campervan conversion
+## From the Top EP
+
 <p align="center">
-  <img src="/assets/img/campervan.jpg" alt="ICU_Grow image" width="850">
+  <div class="bandcamp-container">
+    <iframe
+      src="https://bandcamp.com/EmbeddedPlayer/album=3952010727/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
+      title="From the Top by Fortune"
+      frameborder="0"
+      seamless>
+    </iframe>
+  </div>
 </p>
 
-**Skills:** CAD, 12V Electronics, Woodworking, Metal work, Carpet Lining, Painting, Sewing
+<style>
+.bandcamp-container {
+  position: relative;
+  width: 100%;
+  max-width: 400px; /* optional: controls how wide it grows */
+  aspect-ratio: 350 / 470; /* matches Bandcamp’s native size */
+  margin: 0 auto;
+}
 
-**Description:** Campervan designed to support travel, MTBing and good times across New Zealand. Completed in December 2023, just in time for my Dad's first visit to New Zealand and tour of the South Island. The design & build of this project was undertaken over 9 months. 
+.bandcamp-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+</style>
 
-**Key Features:**
-- 100Ah Lithium Battery with 220W solar panel and charge while driving system
-- 12V electrical power system for fridge, lighting, roof ventilation fan, laptops and water pump
-- Fully insulated walls, floor and ceiling
-- Diesel Heating for winter ski trips
-- Outside shower
-- Kitchen and sink plumbed to fresh and grey water tanks
-- Apple car play and upgraded stero system + alarm/immobiliser
-- Upgraded alloy wheels/tyres
-- Custom insulated window covers/blinds
-- Removable table for eating inside and board games
-- Two bike rack, connected to brake lights. Rotates to allow boot access
-- Massive amount of storage space under bed, in kitchen and above drivers cab
+## Still scratching that itch
 
-**Build Diary:** [Build diary can be found here](/projects/build_diaries/campervan)
+**October 2025. Mid-week jam with my old mate, Will**
 
+<p align="center">
+  <div class="video-container">
+    <iframe
+      src="https://youtube.com/shorts/ByJwfK03lG8"
+      title="ICU Grow Demo"
+      frameborder="0"
+      allowfullscreen>
+    </iframe>
+  </div>
+</p>
 
+<style>
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 850px; /* optional max width */
+  aspect-ratio: 16 / 9;
+  margin: 0 auto;
+}
 
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+</style>
+
+## Promo mix for Pirate Material in Newcastle
+
+<p align="center">
+  <div class="soundcloud-container">
+    <iframe
+      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/133861999&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+      title="Pirate Material Mini Mix #1 Fortune"
+      frameborder="no"
+      allow="autoplay">
+    </iframe>
+  </div>
+
+  <div class="soundcloud-credit">
+    <a href="https://soundcloud.com/piratematerialnewcastle" target="_blank">PirateMaterialNewcastle</a> · 
+    <a href="https://soundcloud.com/piratematerialnewcastle/pirate-material-mini-mix-1" target="_blank">Pirate Material Mini Mix #1 Fortune</a>
+  </div>
+</p>
+
+<style>
+.soundcloud-container {
+  position: relative;
+  width: 100%;
+  max-width: 850px; /* scales nicely up to desktop size */
+  aspect-ratio: 16 / 9; /* SoundCloud visual player is closer to this */
+  margin: 0 auto;
+}
+
+.soundcloud-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.soundcloud-credit {
+  font-size: 10px;
+  color: #999;
+  text-align: center;
+  font-family: sans-serif;
+  margin-top: 4px;
+}
+
+.soundcloud-credit a {
+  color: #999;
+  text-decoration: none;
+}
+</style>
+
+## Leo and the Heist Live Video
+
+<p align="center">
+  <div class="video-container">
+    <iframe
+      src="https://www.youtube.com/watch?v=zTFfemV2Elo"
+      title="ICU Grow Demo"
+      frameborder="0"
+      allowfullscreen>
+    </iframe>
+  </div>
+</p>
+
+<style>
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 850px; /* optional max width */
+  aspect-ratio: 16 / 9;
+  margin: 0 auto;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+</style>
