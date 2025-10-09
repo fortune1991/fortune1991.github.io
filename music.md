@@ -18,42 +18,34 @@ Since moving to Christchurch, I’ve kept up with making the occasional new trac
 
 ## From the Top EP
 
-<div class="bandcamp-wrapper">
+<div class="bandcamp-player" aria-label="From The Top EP by Fortune">
   <iframe
-    src="https://bandcamp.com/EmbeddedPlayer/album=3952010727/size=small/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
-    title="From the Top by Fortune"
-    frameborder="0"
+    src="https://bandcamp.com/EmbeddedPlayer/album=3952010727/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/"
+    title="From The Top by Fortune — Bandcamp player"
+    style="border: 0; width: 100%; height: 120px;"
     seamless>
+    <a href="https://lunatickrecords.bandcamp.com/album/from-the-top-2">From The Top by Fortune</a>
   </iframe>
 </div>
 
 <style>
-.bandcamp-wrapper {
-  position: relative;
+.bandcamp-player {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin: 0 auto;
   padding: 0;
-  line-height: 0;
+  line-height: 0;      
+  max-width: 800px;    
 }
 
-.bandcamp-wrapper iframe {
+.bandcamp-player iframe {
   display: block;
   width: 100%;
-  max-width: 400px;
-  height: auto !important;
+  height: 120px !important;
   margin: 0;
   padding: 0;
   border: 0;
-  line-height: 0;
-  aspect-ratio: 350 / 470;
-}
-
-/* Forcefully remove any rogue whitespace added by markdown or browsers */
-.bandcamp-wrapper::after,
-.bandcamp-wrapper::before {
-  content: "";
-  display: none;
 }
 </style>
 
