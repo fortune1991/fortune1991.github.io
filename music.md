@@ -18,7 +18,7 @@ Since moving to Christchurch, I’ve kept up with making the occasional new trac
 
 ## From the Top EP
 
-<div class="bandcamp-container">
+<div class="bandcamp-wrapper">
   <iframe
     src="https://bandcamp.com/EmbeddedPlayer/album=3952010727/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
     title="From the Top by Fortune"
@@ -28,20 +28,32 @@ Since moving to Christchurch, I’ve kept up with making the occasional new trac
 </div>
 
 <style>
-.bandcamp-container {
+.bandcamp-wrapper {
   position: relative;
-  width: 100%;
-  max-width: 800px;
+  display: flex;
+  justify-content: center;
   margin: 0 auto;
-  overflow: hidden; /* hides any ghost spacing */
+  padding: 0;
+  line-height: 0;
 }
 
-.bandcamp-container iframe {
+.bandcamp-wrapper iframe {
   display: block;
   width: 100%;
-  height: auto !important; /* overrides Bandcamp’s fixed height */
+  max-width: 400px;
+  height: auto !important;
+  margin: 0;
+  padding: 0;
   border: 0;
-  aspect-ratio: 350 / 470; /* optional: keep proportions */
+  line-height: 0;
+  aspect-ratio: 350 / 470;
+}
+
+/* Forcefully remove any rogue whitespace added by markdown or browsers */
+.bandcamp-wrapper::after,
+.bandcamp-wrapper::before {
+  content: "";
+  display: none;
 }
 </style>
 
