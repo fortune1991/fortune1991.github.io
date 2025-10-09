@@ -73,7 +73,7 @@ Here are some of the side projects that I've been working on during my year away
 - UI created using Textualize, hosted as a web app
 - Budget forcasting tool, with visualisations created using Grafana
 
-**Build Diary:** [Build diary can be found here](/projects/build_diaries/moneypots) 
+**Build Diary:** [Click here!](/projects/build_diaries/moneypots) 
 
 **GitHub:** [Link to repository](https://github.com/fortune1991/money_features)
 

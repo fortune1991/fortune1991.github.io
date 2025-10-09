@@ -32,7 +32,7 @@ In my spare time, I enjoy getting some good use out of my power tool "investment
 - Two bike rack, connected to brake lights. Rotates to allow boot access
 - Massive amount of storage space under bed, in kitchen and above drivers cab
 
-**Build Diary:** [Build diary can be found here](/projects/build_diaries/campervan)
+**Build Diary:** [Click here!](/projects/build_diaries/campervan)
 
 ## Garden
 <p align="center">
@@ -45,7 +45,7 @@ In my spare time, I enjoy getting some good use out of my power tool "investment
 
 In the end, we transformed an overgrown patch into a thriving veggie strip of about 25m². Along the way, we refurbished the old fence, installed automated irrigation, got a new driveway surface, and built a bike storage shed.
 
-**Build Diary:** [Build diary can be found here](/projects/build_diaries/garden)
+**Build Diary:** [Click here!](/projects/build_diaries/garden)
 
 ## Surf Board
 <p align="center">
@@ -56,7 +56,7 @@ In the end, we transformed an overgrown patch into a thriving veggie strip of ab
 
 **Description:** Props to my friend Alex for this one! After taking a surfboard shaping course with Christchurch company Sadhana, he decided to start making boards from scratch at home. I joined him for the ride and picked up my own blank. What followed was an incredibly fun, messy, sticky, and occasionally stressful journey — full of dust, resin, and fast-setting epoxy!
 
-**Build Diary:** [Build diary can be found here](/projects/build_diaries/surf)
+**Build Diary:** [Click here!](/projects/build_diaries/surf)
 
 ## Backgammon Board
 <p align="center">
