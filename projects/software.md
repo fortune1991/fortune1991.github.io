@@ -26,14 +26,35 @@ Here are some of the side projects that I've been working on during my year away
 - Phone notifications and alerts for extreme conditions
 
 **Demonstration Video:**
+
 <p align="center">
-  <iframe width="650" height="360"
-    src="https://www.youtube.com/embed/AugEfShF2M0"
-    title="ICU Grow Demo"
-    frameborder="0"
-    allowfullscreen>
-  </iframe>
+  <div class="video-container">
+    <iframe
+      src="https://www.youtube.com/embed/AugEfShF2M0"
+      title="ICU Grow Demo"
+      frameborder="0"
+      allowfullscreen>
+    </iframe>
+  </div>
 </p>
+
+<style>
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 700px; /* optional max width */
+  aspect-ratio: 16 / 9;
+  margin: 0 auto; /* center horizontally */
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+</style>
 
 **GitHub:** [Link to repository](https://www.github.com/fortune1991)
 
