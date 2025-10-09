@@ -42,7 +42,7 @@ Here are some of the side projects that I've been working on during my year away
 .video-container {
   position: relative;
   width: 100%;
-  max-width: 700px; /* optional max width */
+  max-width: 850px; /* optional max width */
   aspect-ratio: 16 / 9;
   margin: 0 auto; /* center horizontally */
 }
