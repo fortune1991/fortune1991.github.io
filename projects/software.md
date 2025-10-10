@@ -13,8 +13,7 @@ During my year of travelling, I’ve been developing a range of side projects to
   <img src="/assets/img/icu_grow.jpg" alt="ICU_Grow_image" width="850">
 </p>
 
-**Technologies:** Micropython, AWS, Async, Ntfy, Open API's, Raspberry Pi Pico and Electronics
-
+**Technologies:** Micropython, AWS, Async, Ntfy, Open API's, Raspberry Pi Pico<br>
 **Description:** ICU_Grow is an IoT enabled, automated greenhouse for my garden.
 
 **Key Features:**
@@ -26,8 +25,7 @@ During my year of travelling, I’ve been developing a range of side projects to
 - Cloud data pipeline to store logs, visualise data and analyse long term trends of environmental conditions
 - Phone notifications and alerts for extreme conditions
 
-**GitHub:** [Link to repository](https://www.github.com/fortune1991)
-
+**GitHub:** [Link to repository](https://www.github.com/fortune1991)<br>
 **Demonstration Video:**
 
 <p align="center">
@@ -64,8 +62,7 @@ During my year of travelling, I’ve been developing a range of side projects to
   <img src="/assets/img/moneypots.jpg" alt="moneypots_image" width="850">
 </p>
 
-**Technologies:** Python, MySQL, AWS, Grafana, Textualize 
-
+**Technologies:** Python, MySQL, AWS, Grafana, Textualize <br>
 **Description:** Money Pots is a budgeting calculator built for travelers. It enables users to divide their savings into Vaults and Pots, helping them manage funds across different parts of a trip. A built-in budget forecasting tool estimates what your balance _should_ be at any given point to stay on track. The project has been developed iteratively, allowing me to explore the impact of new features and architectural changes within an evolving codebase.
 
 **Key Features:**
