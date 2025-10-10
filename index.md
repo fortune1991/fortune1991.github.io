@@ -10,41 +10,40 @@ layout: default
   margin: 1.5rem auto;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
-  background: transparent; /* removes grey flashes */
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  background: transparent;
 }
 
-/* Carousel container: fill width, maintain 3:2 ratio */
+/* Container just wraps images */
 .carousel-container {
   display: flex;
   width: 100%;
-  height: auto;
-  aspect-ratio: 3 / 2;
   transition: transform 0.5s ease;
-  background: transparent;
 }
 
-/* Images: fill container completely */
+/* Images fill width, height adjusts naturally */
 .carousel-image {
   flex-shrink: 0;
   width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: cover;
   display: block;
+  border: none;
   margin: 0;
   padding: 0;
-  border: none;
   background: transparent;
 }
 
-/* Controls sit just inside bottom edge */
+/* Controls just inside bottom of image */
 .carousel-controls {
   position: absolute;
-  inset: 0;
+  bottom: 8px;
+  left: 0;
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
-  padding: 0 8px 8px;
+  align-items: center;
+  padding: 0 8px;
   pointer-events: none;
   z-index: 5;
 }
@@ -57,7 +56,6 @@ layout: default
   width: 36px;
   height: 36px;
   font-size: 1.3rem;
-  line-height: 1;
   cursor: pointer;
   pointer-events: auto;
   transition: background 0.3s ease, transform 0.2s ease;
@@ -68,7 +66,6 @@ layout: default
   transform: scale(1.1);
 }
 
-/* Dots */
 .carousel-dots {
   position: absolute;
   bottom: 8px;
@@ -85,31 +82,13 @@ layout: default
   border-radius: 50%;
   background: rgba(255,255,255,0.6);
   cursor: pointer;
-  transition: background 0.3s;
 }
 
 .carousel-dots span.active {
   background: white;
 }
 
-/* --- Responsive tweaks --- */
-@media (max-width: 800px) {
-  .image-carousel {
-    max-width: 100%; /* let carousel fill viewport */
-    border-radius: 0; /* optional for edge-to-edge mobile look */
-  }
-
-  .carousel-container {
-    aspect-ratio: auto; /* let height adjust naturally */
-    height: auto;
-  }
-
-  .carousel-image {
-    width: 100%;
-    height: auto;
-  }
-}
-
+/* Responsive tweaks */
 @media (max-width: 600px) {
   .carousel-controls button {
     width: 30px;
