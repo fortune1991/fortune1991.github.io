@@ -54,7 +54,7 @@ In the end, we transformed an overgrown patch into a thriving veggie strip of ab
 
 **Skills:** Shaping, Glassing, Graphic Design
 
-**Description:** Props to my friend Alex for this one! After taking a surfboard shaping course with Christchurch company Sadhana, he decided to start making boards from scratch at home. I joined him for the ride and picked up my own blank. What followed was an incredibly fun, messy, sticky, and occasionally stressful journey — full of dust, resin, and fast-setting epoxy!
+**Description:** Props to my friend Alex for this one! After taking a surfboard shaping course with Christchurch company Sadhana, he decided to start making boards from scratch at home. I joined him for the ride and picked up my own blank. What followed was an incredibly fun, messy, sticky, and occasionally stressful journey — full of dust and fast-setting resin!
 
 **Build Diary:** [Click here!](/projects/build_diaries/surf)
 
