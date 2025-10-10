@@ -1,6 +1,68 @@
 ---
 layout: default
 ---
+
+<style>
+.image-carousel {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  margin: 1rem auto;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.carousel-container {
+  display: flex;
+  transition: transform 0.5s ease;
+  height: 500px; /* desired height */
+}
+
+.carousel-image {
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .carousel-container {
+    height: 300px;
+  }
+}
+
+.carousel-controls {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  pointer-events: none;
+}
+
+.carousel-controls button {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.carousel-dots {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  pointer-events: auto;
+}
+</style>
+
 # About me
 I love a project, particularly those that challenge me to solve problems and develop new skills. My journey into computer science began two years ago when I set out to automate some tasks at my previous job. I had long suspected there was a better way than bloated Excel spreadsheets but lacked the coding knowledge to make it happen. Discovering Python opened that door, and I’ve since fallen deep into the rabbit hole. This website showcases some projects I’ve built while exploring more specific areas of software and data engineering.
 
