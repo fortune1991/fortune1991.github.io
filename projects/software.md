@@ -26,8 +26,6 @@ During my year of travelling, I’ve been developing a range of side projects to
 - Cloud data pipeline to store logs, visualise data and analyse long term trends of environmental conditions
 - Phone notifications and alerts for extreme conditions
 
-**GitHub:** [Link to repository](https://www.github.com/fortune1991)
-
 **Demonstration Video:**
 
 <p align="center">
@@ -58,6 +56,8 @@ During my year of travelling, I’ve been developing a range of side projects to
   height: 100%;
 }
 </style>
+
+**GitHub:** [Link to repository](https://www.github.com/fortune1991)
 
 ## MoneyPots
 <p align="center">
