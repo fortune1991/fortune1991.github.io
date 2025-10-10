@@ -3,6 +3,7 @@ layout: default
 ---
 
 <style>
+/* --- Image Carousel Styling --- */
 .image-carousel {
   position: relative;
   width: 100%;
@@ -10,37 +11,42 @@ layout: default
   margin: 1.5rem auto;
   overflow: hidden;
   border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15); /* subtle shadow */
+  background: #000; /* removes any grey flash behind images */
 }
 
+/* Maintain Canon G7X 3:2 aspect ratio */
 .carousel-container {
   display: flex;
   transition: transform 0.5s ease;
   aspect-ratio: 3 / 2;
+  width: 100%;
 }
 
+/* Ensure images perfectly fill the frame */
 .carousel-image {
   flex-shrink: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
 /* --- Controls --- */
 .carousel-controls {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  transform: translateY(-50%);
-  pointer-events: none; 
+  margin-top: 0.4rem; /* moves controls below the image */
+  width: 100%;
+  pointer-events: none; /* lets clicks through unless on buttons */
 }
 
 .carousel-controls button {
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.5);
   color: white;
   border: none;
   border-radius: 50%;
@@ -50,35 +56,36 @@ layout: default
   line-height: 1;
   cursor: pointer;
   pointer-events: auto;
-  transition: background 0.3s ease;
+  transition: background 0.3s ease, transform 0.2s ease;
 }
 
 .carousel-controls button:hover {
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.7);
+  transform: scale(1.1);
 }
 
+/* --- Dots --- */
 .carousel-dots {
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
   display: flex;
   gap: 8px;
+  justify-content: center;
+  pointer-events: auto;
 }
 
 .carousel-dots span {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(0, 0, 0, 0.3);
   cursor: pointer;
   transition: background 0.3s;
 }
 
 .carousel-dots span.active {
-  background: white;
+  background: rgba(0, 0, 0, 0.7);
 }
 
+/* --- Responsive tweak --- */
 @media (max-width: 600px) {
   .carousel-controls button {
     width: 32px;
