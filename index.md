@@ -6,8 +6,8 @@ layout: default
 .image-carousel {
   position: relative;
   width: 100%;
-  max-width: 900px;
-  margin: 1rem auto;
+  max-width: 800px;
+  margin: 1.5rem auto;
   overflow: hidden;
   border-radius: 12px;
 }
@@ -15,7 +15,7 @@ layout: default
 .carousel-container {
   display: flex;
   transition: transform 0.5s ease;
-  height: 500px; /* desired height */
+  aspect-ratio: 3 / 2;
 }
 
 .carousel-image {
@@ -26,40 +26,65 @@ layout: default
   display: block;
 }
 
-@media (max-width: 768px) {
-  .carousel-container {
-    height: 300px;
-  }
-}
-
+/* --- Controls --- */
 .carousel-controls {
   position: absolute;
-  bottom: 10px;
+  top: 50%;
   left: 0;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  pointer-events: none;
+  transform: translateY(-50%);
+  pointer-events: none; 
 }
 
 .carousel-controls button {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.4);
   color: white;
   border: none;
   border-radius: 50%;
-  width: 36px;
-  height: 36px;
+  width: 40px;
+  height: 40px;
   font-size: 1.5rem;
+  line-height: 1;
   cursor: pointer;
   pointer-events: auto;
+  transition: background 0.3s ease;
+}
+
+.carousel-controls button:hover {
+  background: rgba(0, 0, 0, 0.6);
 }
 
 .carousel-dots {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   gap: 8px;
-  justify-content: center;
-  pointer-events: auto;
+}
+
+.carousel-dots span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.carousel-dots span.active {
+  background: white;
+}
+
+@media (max-width: 600px) {
+  .carousel-controls button {
+    width: 32px;
+    height: 32px;
+    font-size: 1.2rem;
+  }
 }
 </style>
 
