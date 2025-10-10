@@ -16,6 +16,13 @@ I’m currently abroad on a year-long sabbatical, travelling the world with my w
     <img class="carousel-image" src="/assets/img/image2.jpg" alt="Image 2">
     <img class="carousel-image" src="/assets/img/image3.jpg" alt="Image 3">
     <img class="carousel-image" src="/assets/img/image4.jpg" alt="Image 4">
+    <img class="carousel-image" src="/assets/img/image5.jpg" alt="Image 5">
+    <img class="carousel-image" src="/assets/img/image6.jpg" alt="Image 6">
+    <img class="carousel-image" src="/assets/img/image7.jpg" alt="Image 7">
+    <img class="carousel-image" src="/assets/img/image8.jpg" alt="Image 8">
+    <img class="carousel-image" src="/assets/img/image9.jpg" alt="Image 9">
+    <img class="carousel-image" src="/assets/img/image10.jpg" alt="Image 10">
+    <img class="carousel-image" src="/assets/img/image11.jpg" alt="Image 11">
   </div>
   <div class="carousel-controls">
     <button class="carousel-prev">‹</button>
