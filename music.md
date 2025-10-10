@@ -6,13 +6,13 @@ permalink: /music/
 
 # Music
 
-Music has been an important part of my life since my teenage years, taking many different forms along life’s journey.
+Music has been an important part of my life since my teenage years, taking many different forms through life’s journey.
 
 I first got into turntablism through a local youth club in the UK, practicing regularly with a break dancing group. This led to a part-time job as a DJ during my university years.
 
 While on my placement year, I wrote and released an EP titled “From the Top” on Lunatick Records.
 
-After university, I moved to Bristol and joined a house full of musicians, where we formed a band to support our talented vocalist friend, performing as “Leo and the Heist.” Since moving to Christchurch, I’ve kept up with making the occasional new track and DJing at friends’ parties and events. On a recent trip back to the UK, I finally shipped my vinyl collection to New Zealand. I’m hoping this serves as another catalyst to get more involved with the Christchurch music scene. 
+After university, I moved to Bristol and joined a house full of musicians, where we formed a band to support our talented vocalist friend, performing as “Leo and the Heist.” Since moving to Christchurch, I’ve kept up with making the occasional new track and DJing at friends’ parties and events. On a recent trip back to the UK, I finally shipped my vinyl collection to New Zealand. I’m hoping this serves as a catalyst to get more involved with the Christchurch music scene. 
 
 ## From the Top EP
 
@@ -56,7 +56,7 @@ From the Top was written and recorded in my Bristol bedroom throughout winter of
 
 ## Still scratching that itch
 
-**October 2025. Mid-week jam with my old mate, Will**
+October 2025. Video short from a mid-week scratch jam with my old mate, Will
 
 <p align="center">
   <div class="video-container">
@@ -89,7 +89,7 @@ From the Top was written and recorded in my Bristol bedroom throughout winter of
 
 ## Promo mix for Pirate Material in Newcastle
 
-**All vinyl UK garage mix, recorded to promote an event in Newcastle, UK**
+All vinyl UK garage mix I recorded to promote an event in Newcastle, UK.
 
 <p align="center">
   <div class="soundcloud-container">
@@ -141,7 +141,7 @@ From the Top was written and recorded in my Bristol bedroom throughout winter of
 
 ## Leo and the Heist Live Video
 
-**Live performance of our track "King Again", recorded in Bristol, UK. Featured on BBC Introducing South West Radio Station.**
+Live performance of our track "King Again", recorded in Bristol, UK. Featured on BBC Introducing South West Radio Station.
 
 <p align="center">
   <div class="video-container">
