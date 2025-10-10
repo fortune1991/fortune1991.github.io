@@ -73,8 +73,7 @@ During my year of travelling, I’ve been developing a range of side projects to
 - UI created using Textualize, hosted as a web app
 - Budget forcasting tool, with visualisations created using Grafana
 
-**Build Diary:** [Click here!](/projects/build_diaries/moneypots) 
-
+**Build Diary:** [Click here!](/projects/build_diaries/moneypots)<br>
 **GitHub:** [Link to repository](https://github.com/fortune1991/money_features)
 
 ## Quantifying Energy Poverty in Chicago 
