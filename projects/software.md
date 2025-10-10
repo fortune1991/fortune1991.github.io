@@ -6,7 +6,7 @@ permalink: /projects/software/
 
 # Software
 
-Here are some of the side projects that I've been working on during my year away travelling. To expand my skill set, each project has focused on different technologies and libraries. 
+During my year of travelling, I’ve been developing a range of side projects to expand my skill set. Each project explores different technologies and libraries in the Python ecosystem.
 
 ## ICU_Grow
 <p align="center">
