@@ -6,50 +6,50 @@ layout: default
 /* --- Image Carousel Styling --- */
 .image-carousel {
   position: relative;
+  display: block;
   width: 100%;
-  max-width: 800px;
-  margin: 1.5rem auto;
-  overflow: hidden;
+  max-width: 800px; /* fixed max width */
+  margin: 1.5rem 0; /* aligns with text flow */
   border-radius: 12px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12); /* subtle lift only */
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
 }
 
-/* Maintain Canon G7X 3:2 aspect ratio */
+/* Make carousel fill parent width, maintain 3:2 ratio */
 .carousel-container {
   display: flex;
-  transition: transform 0.5s ease;
-  aspect-ratio: 3 / 2;
   width: 100%;
+  aspect-ratio: 3 / 2;
+  transition: transform 0.5s ease;
+  background: transparent;
 }
 
-/* Fill container completely, no borders or gaps */
+/* Photos fill completely with no gaps */
 .carousel-image {
   flex-shrink: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
+  border: none;
   margin: 0;
   padding: 0;
-  border: none;
-  background: none;
+  background: transparent;
 }
 
-/* --- Controls (now sit at bottom edge of image) --- */
+/* --- Controls: perfectly aligned within image --- */
 .carousel-controls {
   position: absolute;
-  bottom: 8px; /* 👈 slightly overlaps image bottom */
-  left: 0;
-  width: 100%;
+  inset: 0; /* anchors to all edges of image */
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 0 10px;
+  align-items: flex-end; /* bottom alignment */
+  padding: 0 8px 8px; /* inside bottom edge */
   pointer-events: none;
-  z-index: 10;
+  z-index: 5;
 }
 
-/* Buttons */
+/* Navigation buttons */
 .carousel-controls button {
   background: rgba(0, 0, 0, 0.45);
   color: #fff;
@@ -57,7 +57,7 @@ layout: default
   border-radius: 50%;
   width: 38px;
   height: 38px;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   line-height: 1;
   cursor: pointer;
   pointer-events: auto;
@@ -69,7 +69,7 @@ layout: default
   transform: scale(1.1);
 }
 
-/* Dots centered below image */
+/* Dots centered along bottom edge */
 .carousel-dots {
   position: absolute;
   bottom: 8px;
@@ -77,7 +77,7 @@ layout: default
   transform: translateX(-50%);
   display: flex;
   gap: 8px;
-  z-index: 9;
+  z-index: 4;
 }
 
 .carousel-dots span {
@@ -93,7 +93,14 @@ layout: default
   background: white;
 }
 
-/* Responsive tweak */
+/* --- Responsive: maintain full width and ratio --- */
+@media (max-width: 900px) {
+  .image-carousel {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+}
+
 @media (max-width: 600px) {
   .carousel-controls button {
     width: 30px;
