@@ -3,60 +3,59 @@ layout: default
 ---
 
 <style>
-/* --- Image Carousel Styling --- */
 .image-carousel {
   position: relative;
-  display: block;
   width: 100%;
-  max-width: 800px; /* fixed max width */
-  margin: 1.5rem 0; /* aligns with text flow */
+  max-width: 800px;
+  margin: 1.5rem auto;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  background: transparent; /* removes grey flashes */
 }
 
-/* Make carousel fill parent width, maintain 3:2 ratio */
+/* Carousel container: fill width, maintain 3:2 ratio */
 .carousel-container {
   display: flex;
   width: 100%;
+  height: auto;
   aspect-ratio: 3 / 2;
   transition: transform 0.5s ease;
   background: transparent;
 }
 
-/* Photos fill completely with no gaps */
+/* Images: fill container completely */
 .carousel-image {
   flex-shrink: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
-  border: none;
   margin: 0;
   padding: 0;
+  border: none;
   background: transparent;
 }
 
-/* --- Controls: perfectly aligned within image --- */
+/* Controls sit just inside bottom edge */
 .carousel-controls {
   position: absolute;
-  inset: 0; /* anchors to all edges of image */
+  inset: 0;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end; /* bottom alignment */
-  padding: 0 8px 8px; /* inside bottom edge */
+  align-items: flex-end;
+  padding: 0 8px 8px;
   pointer-events: none;
   z-index: 5;
 }
 
-/* Navigation buttons */
 .carousel-controls button {
-  background: rgba(0, 0, 0, 0.45);
+  background: rgba(0,0,0,0.45);
   color: #fff;
   border: none;
   border-radius: 50%;
-  width: 38px;
-  height: 38px;
+  width: 36px;
+  height: 36px;
   font-size: 1.3rem;
   line-height: 1;
   cursor: pointer;
@@ -65,11 +64,11 @@ layout: default
 }
 
 .carousel-controls button:hover {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0,0,0,0.7);
   transform: scale(1.1);
 }
 
-/* Dots centered along bottom edge */
+/* Dots */
 .carousel-dots {
   position: absolute;
   bottom: 8px;
@@ -84,7 +83,7 @@ layout: default
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255,255,255,0.6);
   cursor: pointer;
   transition: background 0.3s;
 }
@@ -93,11 +92,21 @@ layout: default
   background: white;
 }
 
-/* --- Responsive: maintain full width and ratio --- */
-@media (max-width: 900px) {
+/* --- Responsive tweaks --- */
+@media (max-width: 800px) {
   .image-carousel {
-    max-width: 100%;
-    border-radius: 10px;
+    max-width: 100%; /* let carousel fill viewport */
+    border-radius: 0; /* optional for edge-to-edge mobile look */
+  }
+
+  .carousel-container {
+    aspect-ratio: auto; /* let height adjust naturally */
+    height: auto;
+  }
+
+  .carousel-image {
+    width: 100%;
+    height: auto;
   }
 }
 
