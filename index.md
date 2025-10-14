@@ -5,7 +5,7 @@ layout: default
 <style>
 /* Carousel Styles */
 .image-carousel {
-  max-width: 850px;
+  max-width: 1200px;
   width: 100%;
   margin: 0 auto;
 }
@@ -82,6 +82,16 @@ layout: default
 .carousel-dots .dot.active {
   background: #333;
 }
+
+/* Force full width within the content column */
+main .wrapper {
+  max-width: 850px;
+}
+
+.image-carousel {
+  width: 100% !important;
+  max-width: 100% !important;
+}
 </style>
 
 <script>
@@ -89,23 +99,14 @@ document.addEventListener('DOMContentLoaded', function() {
   const images = document.querySelectorAll('.carousel-image');
   const prevButton = document.querySelector('.carousel-prev');
   const nextButton = document.querySelector('.carousel-next');
-  const dotsContainer = document.querySelector('.carousel-dots');
+  const dots = document.querySelectorAll('.carousel-dots .dot');
   
   let currentIndex = 0;
   
-  // Clear any existing dots first (in case of page refresh issues)
-  dotsContainer.innerHTML = '';
-  
-  // Create dots - ONLY once per image
-  images.forEach((_, index) => {
-    const dot = document.createElement('div');
-    dot.classList.add('dot');
-    if (index === 0) dot.classList.add('active');
-    dot.addEventListener('click', () => goToSlide(index));
-    dotsContainer.appendChild(dot);
-  });
-  
-  const dots = document.querySelectorAll('.dot');
+  // Initialize first dot as active
+  if (dots.length > 0) {
+    dots[0].classList.add('active');
+  }
   
   function goToSlide(index) {
     // Remove active class from current image and dot
@@ -133,18 +134,13 @@ document.addEventListener('DOMContentLoaded', function() {
     goToSlide(prevIndex);
   }
   
+  // Add click events to existing dots
+  dots.forEach((dot, index) => {
+    dot.addEventListener('click', () => goToSlide(index));
+  });
+  
   prevButton.addEventListener('click', prevSlide);
   nextButton.addEventListener('click', nextSlide);
-  
-  // Optional: Auto-advance every 5 seconds
-  // let carouselInterval = setInterval(nextSlide, 5000);
-  
-  // Optional: Pause auto-advance on hover
-  // const carousel = document.querySelector('.image-carousel');
-  // carousel.addEventListener('mouseenter', () => clearInterval(carouselInterval));
-  // carousel.addEventListener('mouseleave', () => {
-  //   carouselInterval = setInterval(nextSlide, 5000);
-  // });
 });
 </script>
 
@@ -173,7 +169,19 @@ I'm currently abroad on a year-long sabbatical, travelling the world with my won
   </div>
   <div class="carousel-controls">
     <button class="carousel-prev">‹</button>
-    <div class="carousel-dots"></div>
+    <div class="carousel-dots">
+      <div class="dot active"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
     <button class="carousel-next">›</button>
   </div>
 </div>
