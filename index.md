@@ -14,7 +14,7 @@ layout: default
   position: relative;
   width: 100%;
   height: 0;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio - adjust as needed */
+  padding-bottom: 66.67%; /* 3:2 aspect ratio - better for photos */
   overflow: hidden;
   border-radius: 8px;
 }
@@ -40,6 +40,7 @@ layout: default
   align-items: center;
   gap: 20px;
   margin-top: 15px;
+  padding: 0 10px;
 }
 
 .carousel-prev,
@@ -53,6 +54,7 @@ layout: default
   font-size: 20px;
   cursor: pointer;
   transition: background 0.3s ease;
+  flex-shrink: 0;
 }
 
 .carousel-prev:hover,
@@ -63,6 +65,8 @@ layout: default
 .carousel-dots {
   display: flex;
   gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .carousel-dots .dot {
@@ -72,6 +76,7 @@ layout: default
   background: #ccc;
   cursor: pointer;
   transition: background 0.3s ease;
+  flex-shrink: 0;
 }
 
 .carousel-dots .dot.active {
@@ -81,7 +86,6 @@ layout: default
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  const carouselContainer = document.querySelector('.carousel-container');
   const images = document.querySelectorAll('.carousel-image');
   const prevButton = document.querySelector('.carousel-prev');
   const nextButton = document.querySelector('.carousel-next');
@@ -89,7 +93,10 @@ document.addEventListener('DOMContentLoaded', function() {
   
   let currentIndex = 0;
   
-  // Create dots
+  // Clear any existing dots first (in case of page refresh issues)
+  dotsContainer.innerHTML = '';
+  
+  // Create dots - ONLY once per image
   images.forEach((_, index) => {
     const dot = document.createElement('div');
     dot.classList.add('dot');
@@ -101,13 +108,19 @@ document.addEventListener('DOMContentLoaded', function() {
   const dots = document.querySelectorAll('.dot');
   
   function goToSlide(index) {
+    // Remove active class from current image and dot
     images[currentIndex].classList.remove('active');
-    dots[currentIndex].classList.remove('active');
+    if (dots[currentIndex]) {
+      dots[currentIndex].classList.remove('active');
+    }
     
     currentIndex = index;
     
+    // Add active class to new image and dot
     images[currentIndex].classList.add('active');
-    dots[currentIndex].classList.add('active');
+    if (dots[currentIndex]) {
+      dots[currentIndex].classList.add('active');
+    }
   }
   
   function nextSlide() {
@@ -122,6 +135,16 @@ document.addEventListener('DOMContentLoaded', function() {
   
   prevButton.addEventListener('click', prevSlide);
   nextButton.addEventListener('click', nextSlide);
+  
+  // Optional: Auto-advance every 5 seconds
+  // let carouselInterval = setInterval(nextSlide, 5000);
+  
+  // Optional: Pause auto-advance on hover
+  // const carousel = document.querySelector('.image-carousel');
+  // carousel.addEventListener('mouseenter', () => clearInterval(carouselInterval));
+  // carousel.addEventListener('mouseleave', () => {
+  //   carouselInterval = setInterval(nextSlide, 5000);
+  // });
 });
 </script>
 
