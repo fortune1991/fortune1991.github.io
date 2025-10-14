@@ -38,7 +38,7 @@ I’m currently abroad on a year-long sabbatical, travelling the world with my w
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 850px;         /* match your page column width */
+  max-width: 1200px;         /* match your page column width */
   width: 100%;              /* take full width of container */
   margin: 2rem auto;        /* center it with some breathing room */
 }
@@ -109,7 +109,7 @@ I’m currently abroad on a year-long sabbatical, travelling the world with my w
 }
 
 /* --- Responsive tweak --- */
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
   .carousel-container {
     aspect-ratio: 4 / 3;    /* slightly taller for smaller screens */
   }
