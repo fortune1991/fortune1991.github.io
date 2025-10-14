@@ -5,8 +5,8 @@ layout: default
 <style>
 /* Carousel Styles */
 .image-carousel {
-  max-width: 1200px;
   width: 100%;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -14,7 +14,7 @@ layout: default
   position: relative;
   width: 100%;
   height: 0;
-  padding-bottom: 66.67%; /* 3:2 aspect ratio - better for photos */
+  padding-bottom: 66.67%;
   overflow: hidden;
   border-radius: 8px;
 }
@@ -82,16 +82,6 @@ layout: default
 .carousel-dots .dot.active {
   background: #333;
 }
-
-/* Force full width within the content column */
-main .wrapper {
-  max-width: 850px;
-}
-
-.image-carousel {
-  width: 100% !important;
-  max-width: 100% !important;
-}
 </style>
 
 <script>
@@ -103,25 +93,16 @@ document.addEventListener('DOMContentLoaded', function() {
   
   let currentIndex = 0;
   
-  // Initialize first dot as active
-  if (dots.length > 0) {
-    dots[0].classList.add('active');
-  }
-  
   function goToSlide(index) {
     // Remove active class from current image and dot
     images[currentIndex].classList.remove('active');
-    if (dots[currentIndex]) {
-      dots[currentIndex].classList.remove('active');
-    }
+    dots[currentIndex].classList.remove('active');
     
     currentIndex = index;
     
     // Add active class to new image and dot
     images[currentIndex].classList.add('active');
-    if (dots[currentIndex]) {
-      dots[currentIndex].classList.add('active');
-    }
+    dots[currentIndex].classList.add('active');
   }
   
   function nextSlide() {
@@ -134,7 +115,7 @@ document.addEventListener('DOMContentLoaded', function() {
     goToSlide(prevIndex);
   }
   
-  // Add click events to existing dots
+  // Add click events to the existing dots
   dots.forEach((dot, index) => {
     dot.addEventListener('click', () => goToSlide(index));
   });
