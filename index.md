@@ -33,26 +33,23 @@ I’m currently abroad on a year-long sabbatical, travelling the world with my w
 </div>
 
 <style>
-/* --- Image Carousel Styling (Responsive + Flush Left) --- */
+/* --- Image Carousel Styling (Fluid + Centered) --- */
 .image-carousel {
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  /* Let it span the full visible width, not limited by Minima container */
-  width: 100vw;
-  margin: 2rem 0 2rem calc(-50vw + 50%);
-  max-width: 100vw;
-  box-sizing: border-box;
+  margin: 2rem 0;
 }
 
+/* The actual carousel frame */
 .carousel-container {
   position: relative;
-  width: min(90vw, 850px);  /* dynamic width: 90% of viewport, max 850px */
+  width: 100%;
+  max-width: 900px;
   aspect-ratio: 16 / 9;
   overflow: hidden;
   border-radius: 12px;
-  transition: width 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .carousel-image {
@@ -111,19 +108,33 @@ I’m currently abroad on a year-long sabbatical, travelling the world with my w
   background: #007acc;
 }
 
-/* --- Responsive aspect ratio tweaks --- */
-@media (max-width: 1200px) {
+/* --- Responsive tweaks --- */
+@media (min-width: 1201px) {
   .carousel-container {
-    aspect-ratio: 4 / 3;
-    width: min(95vw, 750px);   /* a bit more flexible width in mid-range */
+    width: 100%;
+    max-width: 950px;
+    aspect-ratio: 16 / 9;
   }
 }
 
+/* Smoothly resize between tablet and desktop */
+@media (min-width: 701px) and (max-width: 1200px) {
+  .carousel-container {
+    width: 90%;
+    max-width: none; /* don't let Minima's container freeze it */
+    aspect-ratio: 4 / 3;
+  }
+}
+
+/* Mobile: slightly smaller margin and centered */
 @media (max-width: 700px) {
   .carousel-container {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
     aspect-ratio: 1 / 1;
-    width: 95vw;               /* use almost full screen width on phones */
   }
 }
 </style>
+
 
