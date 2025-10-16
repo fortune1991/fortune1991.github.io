@@ -37,19 +37,19 @@ I’m currently abroad on a year-long sabbatical, travelling the world with my w
 .image-carousel {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;    /* align left with text */
+  align-items: flex-start;     /* align left with text */
   width: 100%;
   margin: 2rem 0;
 }
 
 .carousel-container {
   position: relative;
-  width: 100%;               /* ✅ take full width of the Minima text column */
+  width: 100%;
   aspect-ratio: 16 / 9;
   overflow: hidden;
   border-radius: 12px;
   transition: all 0.3s ease;
-  margin: 0;                 /* flush with text left edge */
+  margin: 0;                  /* flush with text left edge */
 }
 
 .carousel-image {
@@ -110,25 +110,27 @@ I’m currently abroad on a year-long sabbatical, travelling the world with my w
 
 /* --- Responsive Tweaks --- */
 
-/* Medium screens (tablet to small desktop) */
+/* ✅ Medium screens (tablet to small desktop): enable dynamic scaling */
 @media (min-width: 701px) and (max-width: 1200px) {
   .carousel-container {
+    width: 90%;               /* take 90% of text column width */
     aspect-ratio: 4 / 3;
-    margin-left: 0;          /* stay aligned with text */
+    margin-left: 0;           /* align with text */
   }
 }
 
-/* Small screens (mobile) */
+/* ✅ Small screens (mobile): center and fill almost full width */
 @media (max-width: 700px) {
   .image-carousel {
-    align-items: center;     /* center carousel on very small screens */
+    align-items: center;
   }
   .carousel-container {
-    width: 98%;              /* almost full width */
+    width: 98%;
     margin: 0 auto;
     aspect-ratio: 1 / 1;
   }
 }
 </style>
+
 
 
