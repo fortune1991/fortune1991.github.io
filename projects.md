@@ -5,7 +5,6 @@ permalink: /projects/
 ---
 
 <style>
-/* --- Projects Landing Page Styling --- */
 .projects-landing {
   display: flex;
   flex-direction: column;
@@ -70,19 +69,18 @@ permalink: /projects/
 .project-card p {
   color: #666;
   font-size: 1rem;
-  margin-bottom: 0; /* ✅ remove bottom gap */
+  margin-bottom: 0; 
 }
 
 /* --- Responsive for phones --- */
 @media (max-width: 600px) {
   .project-card {
-    width: 90%; /* reduce width on small screens */
-    max-width: 300px; /* optional, caps the max width */
+    width: 90%; 
+    max-width: 300px; 
   }
 }
 </style>
 
-<!-- Include Font Awesome (for icons) -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 <div class="projects-landing">

@@ -16,7 +16,7 @@ After university, I moved to Bristol and joined a house full of musicians, where
 
 ## From the Top EP
 
-From the Top was written and recorded in my Bristol bedroom throughout winter of 2013. It was predominantly made using samples from charity shops records and some awesome collabs with my Friends Leo wood and Raven Hart. I used Logic Pro and NI Machine Mikro, Raven his guitar/keyboards and Leo her soulful vocals. 
+From the Top was written and recorded in my Bristol bedroom throughout winter of 2013. It was predominantly made using samples from charity shops records and some awesome collabs with my Friends Leo Wood and Raven Hart. I used Logic Pro and NI Machine Mikro, Raven his guitar/keyboards and Leo her soulful vocals. 
 
 <p align="center">
   <img src="/assets/img/fromthetop.jpg" alt="fromthetop_image" width="850">
@@ -111,8 +111,8 @@ All vinyl UK garage mix I recorded to promote an event in Newcastle, UK.
 .soundcloud-container {
   position: relative;
   width: 100%;
-  max-width: 850px; /* scales nicely up to desktop size */
-  aspect-ratio: 16 / 9; /* SoundCloud visual player is closer to this */
+  max-width: 850px;
+  aspect-ratio: 16 / 9; 
   margin: 0 auto;
 }
 
