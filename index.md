@@ -23,7 +23,6 @@ I’m currently abroad on a year-long sabbatical, travelling the world with my w
     <img class="carousel-image" src="/assets/img/image8.jpg" alt="Image 8">
     <img class="carousel-image" src="/assets/img/image9.jpg" alt="Image 9">
     <img class="carousel-image" src="/assets/img/image10.jpg" alt="Image 10">
-    <img class="carousel-image" src="/assets/img/image11.jpg" alt="Image 11">
   </div>
   <div class="carousel-controls">
     <button class="carousel-prev">‹</button>
@@ -74,6 +73,7 @@ I’m currently abroad on a year-long sabbatical, travelling the world with my w
   align-items: center;
   margin-top: 0.5rem;
   gap: 1rem;
+  width: 100%;
 }
 
 .carousel-prev,
