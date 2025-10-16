@@ -39,18 +39,17 @@ I’m currently abroad on a year-long sabbatical, travelling the world with my w
   flex-direction: column;
   align-items: flex-start;    /* align left with text */
   width: 100%;
-  margin: 2rem auto;
+  margin: 2rem 0;
 }
 
 .carousel-container {
   position: relative;
-  width: 100%;
-  max-width: 850px;           /* ✅ fixed width matching text column */
+  width: 100%;               /* ✅ take full width of the Minima text column */
   aspect-ratio: 16 / 9;
   overflow: hidden;
   border-radius: 12px;
   transition: all 0.3s ease;
-  margin: 0;                  /* ensure flush with left text edge */
+  margin: 0;                 /* flush with text left edge */
 }
 
 .carousel-image {
@@ -114,10 +113,8 @@ I’m currently abroad on a year-long sabbatical, travelling the world with my w
 /* Medium screens (tablet to small desktop) */
 @media (min-width: 701px) and (max-width: 1200px) {
   .carousel-container {
-    width: 95%;              /* fill most of column */
-    max-width: none;
     aspect-ratio: 4 / 3;
-    margin-left: 0;          /* keep left-aligned with text */
+    margin-left: 0;          /* stay aligned with text */
   }
 }
 
