@@ -37,8 +37,8 @@ I’m currently abroad on a year-long sabbatical, travelling the world with my w
 .image-carousel {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: calc(100% + 2rem);     /* extend slightly to fill padding gap */
+  align-items: left;
+  width: calc(100% + 3rem);     /* extend slightly to fill padding gap */
   margin: 2rem -1rem;           /* negative margin cancels the content padding */
   max-width: 100vw;             /* prevents overflow on very small screens */
 }
