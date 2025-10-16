@@ -33,22 +33,26 @@ I’m currently abroad on a year-long sabbatical, travelling the world with my w
 </div>
 
 <style>
-/* --- Image Carousel Styling --- */
+/* --- Image Carousel Styling (Responsive + Flush Left) --- */
 .image-carousel {
   display: flex;
   flex-direction: column;
-  align-items: left;
-  width: calc(100% + 3rem);     /* extend slightly to fill padding gap */
-  margin: 2rem -1rem;           /* negative margin cancels the content padding */
-  max-width: 100vw;             /* prevents overflow on very small screens */
+  align-items: center;
+
+  /* Let it span the full visible width, not limited by Minima container */
+  width: 100vw;
+  margin: 2rem 0 2rem calc(-50vw + 50%);
+  max-width: 100vw;
+  box-sizing: border-box;
 }
 
 .carousel-container {
   position: relative;
-  width: 100%;
-  aspect-ratio: 16 / 9;         /* keeps a consistent aspect ratio */
+  width: min(90vw, 850px);  /* dynamic width: 90% of viewport, max 850px */
+  aspect-ratio: 16 / 9;
   overflow: hidden;
   border-radius: 12px;
+  transition: width 0.3s ease;
 }
 
 .carousel-image {
@@ -111,12 +115,15 @@ I’m currently abroad on a year-long sabbatical, travelling the world with my w
 @media (max-width: 1200px) {
   .carousel-container {
     aspect-ratio: 4 / 3;
+    width: min(95vw, 750px);   /* a bit more flexible width in mid-range */
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .carousel-container {
     aspect-ratio: 1 / 1;
+    width: 95vw;               /* use almost full screen width on phones */
   }
 }
 </style>
+
