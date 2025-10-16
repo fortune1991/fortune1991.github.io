@@ -37,19 +37,20 @@ I’m currently abroad on a year-long sabbatical, travelling the world with my w
 .image-carousel {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;     /* align left with text */
+  align-items: flex-start;    /* align left with text */
   width: 100%;
-  margin: 2rem 0;
+  margin: 2rem auto;
 }
 
 .carousel-container {
   position: relative;
   width: 100%;
+  max-width: 850px;           /* ✅ fixed width matching text column */
   aspect-ratio: 16 / 9;
   overflow: hidden;
   border-radius: 12px;
   transition: all 0.3s ease;
-  margin: 0;                  /* flush with text left edge */
+  margin: 0;                  /* ensure flush with left text edge */
 }
 
 .carousel-image {
@@ -110,27 +111,29 @@ I’m currently abroad on a year-long sabbatical, travelling the world with my w
 
 /* --- Responsive Tweaks --- */
 
-/* ✅ Medium screens (tablet to small desktop): enable dynamic scaling */
+/* Medium screens (tablet to small desktop) */
 @media (min-width: 701px) and (max-width: 1200px) {
   .carousel-container {
-    width: 90%;               /* take 90% of text column width */
+    width: 100%;              /* fill most of column */
+    max-width: none;
     aspect-ratio: 4 / 3;
-    margin-left: 0;           /* align with text */
+    margin-left: 0;          /* keep left-aligned with text */
   }
 }
 
-/* ✅ Small screens (mobile): center and fill almost full width */
+/* Small screens (mobile) */
 @media (max-width: 700px) {
   .image-carousel {
-    align-items: center;
+    align-items: center;     /* center carousel on very small screens */
   }
   .carousel-container {
-    width: 98%;
+    width: 100%;              /* almost full width */
     margin: 0 auto;
     aspect-ratio: 1 / 1;
   }
 }
 </style>
+
 
 
 
