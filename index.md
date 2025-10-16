@@ -38,14 +38,15 @@ I’m currently abroad on a year-long sabbatical, travelling the world with my w
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;              /* take full width of container */
-  margin: 2rem auto;        /* center it with some breathing room */
+  width: calc(100% + 2rem);     /* extend slightly to fill padding gap */
+  margin: 2rem -1rem;           /* negative margin cancels the content padding */
+  max-width: 100vw;             /* prevents overflow on very small screens */
 }
 
 .carousel-container {
   position: relative;
   width: 100%;
-  aspect-ratio: 16 / 9;     /* keeps a consistent aspect ratio */
+  aspect-ratio: 16 / 9;         /* keeps a consistent aspect ratio */
   overflow: hidden;
   border-radius: 12px;
 }
@@ -54,9 +55,9 @@ I’m currently abroad on a year-long sabbatical, travelling the world with my w
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;              /* match container width */
-  height: 100%;             /* fill container height */
-  object-fit: cover;        /* maintain aspect ratio and fill space */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   opacity: 0;
   transition: opacity 0.6s ease;
 }
@@ -88,7 +89,6 @@ I’m currently abroad on a year-long sabbatical, travelling the world with my w
   color: #007acc;
 }
 
-/* Optional: make the dots align neatly under the images */
 .carousel-dots {
   display: flex;
   gap: 0.5rem;
@@ -107,4 +107,16 @@ I’m currently abroad on a year-long sabbatical, travelling the world with my w
   background: #007acc;
 }
 
+/* --- Responsive aspect ratio tweaks --- */
+@media (max-width: 1200px) {
+  .carousel-container {
+    aspect-ratio: 4 / 3;
+  }
+}
+
+@media (max-width: 600px) {
+  .carousel-container {
+    aspect-ratio: 1 / 1;
+  }
+}
 </style>
