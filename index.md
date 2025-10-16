@@ -45,7 +45,7 @@ I’m currently abroad on a year-long sabbatical, travelling the world with my w
 .carousel-container {
   position: relative;
   width: 100%;
-  max-width: 900px;
+  max-width: 1000px;
   aspect-ratio: 16 / 9;
   overflow: hidden;
   border-radius: 12px;
