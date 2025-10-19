@@ -37,7 +37,7 @@ Added some new features to the project including:
 Further developed the project so it can now be shipped as an MVP. For this, I've made the following updates:
 
   - SQL database now stored in the AWS cloud using MySQL and RDS
-  - UI upgraded to be based on the Textualize library. Distributed as a Web application, hosted on AWS
+  - UI upgraded to be based on the Streamlit library. Distributed as a Web application, hosted on AWS
   - Data visulations created using Grafana  
 
 **Substack:** [Link to detailed article here](#)<br>
