@@ -8,7 +8,7 @@ permalink: /projects/build_diaries/moneypots/
 Basic version of the project used as my final submission for Harvard's CS50 Python course.
 The tool is based around a custom CLI for user interaction.
 
-**Substack:** [Link to detailed article here]()<br>
+**Substack:** [Link to detailed article here](https://open.substack.com/pub/mikefortune/p/money-pots-build-diary-v1?r=3ubys5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true)<br>
 **GitHub:** [Link to repository](https://github.com/fortune1991/money_basic)
 
 ## V2 - Persistent data storage with CSV
