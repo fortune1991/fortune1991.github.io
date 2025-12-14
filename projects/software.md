@@ -65,7 +65,7 @@ During my year of travelling, I’ve been developing a range of side projects to
   <img src="/assets/img/moneypots.jpg" alt="moneypots_image" width="850">
 </p>
 
-**Technologies:** Python, MySQL, AWS, Grafana, Streamlit
+**Technologies:** Python, MySQL, AWS, Plotly, Streamlit
 
 **Description:** Money Pots is a budgeting calculator built for travelers. It enables users to divide their savings into Vaults and Pots, helping them manage funds across different parts of a trip. A built-in budget forecasting tool estimates what your balance _should_ be at any given point to stay on track. The project has been developed iteratively, allowing me to explore the impact of new features and architectural changes within an evolving codebase.
 
