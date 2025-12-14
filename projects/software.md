@@ -64,6 +64,8 @@ During my year of travelling, I’ve been developing a range of side projects to
   <img src="/assets/img/moneypots.jpg" alt="moneypots_image" width="850">
 </p>
 
+**Demo Version:**  [Link to app](https://moneypots-beta.streamlit.app/)
+
 **Technologies:** Python, MySQL, AWS, Grafana, Streamlit
 
 **Description:** Money Pots is a budgeting calculator built for travelers. It enables users to divide their savings into Vaults and Pots, helping them manage funds across different parts of a trip. A built-in budget forecasting tool estimates what your balance _should_ be at any given point to stay on track. The project has been developed iteratively, allowing me to explore the impact of new features and architectural changes within an evolving codebase.
@@ -76,14 +78,6 @@ During my year of travelling, I’ve been developing a range of side projects to
 **Build Diary:** [Click here!](/projects/build_diaries/moneypots)
 
 **GitHub:** [Link to repository](https://github.com/fortune1991/money_features)
-
-## Quantifying Energy Poverty in Chicago 
-
-**info coming soon!**
-
-## La Bodega Disco Website
-
-**info coming soon!**
 
 
 
