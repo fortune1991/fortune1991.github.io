@@ -26,6 +26,8 @@ During my year of travelling, I’ve been developing a range of side projects to
 - Cloud data pipeline to store logs, visualise data and analyse long term trends of environmental conditions
 - Phone notifications and alerts for extreme conditions
 
+**GitHub:** [Link to repository](https://www.github.com/fortune1991)
+
 **Demonstration Video:**
 
 <p align="center">
@@ -57,14 +59,13 @@ During my year of travelling, I’ve been developing a range of side projects to
 }
 </style>
 
-**GitHub:** [Link to repository](https://www.github.com/fortune1991)
-
 ## MoneyPots
+
+**Demo Version:**  [Link to app](https://moneypots-beta.streamlit.app/)
+
 <p align="center">
   <img src="/assets/img/moneypots.jpg" alt="moneypots_image" width="850">
 </p>
-
-**Demo Version:**  [Link to app](https://moneypots-beta.streamlit.app/)
 
 **Technologies:** Python, MySQL, AWS, Grafana, Streamlit
 
