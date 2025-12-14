@@ -61,8 +61,6 @@ During my year of travelling, I’ve been developing a range of side projects to
 
 ## MoneyPots
 
-**Demo Version:**  [Link to app](https://moneypots-beta.streamlit.app/)
-
 <p align="center">
   <img src="/assets/img/moneypots.jpg" alt="moneypots_image" width="850">
 </p>
@@ -75,6 +73,8 @@ During my year of travelling, I’ve been developing a range of side projects to
 - Persistent data storage with MySQL hosted on AWS
 - UI created using Streamlit
 - Budget forcasting tool, with visualisations created using Grafana
+
+**Demo Version:**  [Link to app](https://moneypots-beta.streamlit.app/)
 
 **Build Diary:** [Click here!](/projects/build_diaries/moneypots)
 
