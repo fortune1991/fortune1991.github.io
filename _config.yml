@@ -2,7 +2,8 @@ title: Michael Fortune
 logo: /assets/img/logo.png
 description: |
   <span style="font-size: 1.25em; font-weight: bold; display: inline-block; padding-top: 0.5rem; margin-bottom: 0;">
-    Software & <br> Data Engineer
+    <!-- Software & <br> Data Engineer -->
+    Engineer & Maker
   </span>
 show_downloads: false
 google_analytics: G-ZLK2GHB055
@@ -28,9 +29,9 @@ sidebar:
   - name: Music
     icon: <i class="fa-solid fa-music"></i>
     link: https://fortune1991.github.io/music
-  - name: CV
-    icon: <i class="fa-solid fa-briefcase"></i>
-    link: /assets/pdf/Michael_Fortune_CV.pdf
+  #- name: CV
+    #icon: <i class="fa-solid fa-briefcase"></i>
+    #link: /assets/pdf/Michael_Fortune_CV.pdf
 
 # https://github.com/github/pages-gem/issues/399#issuecomment-301827749
 # When running locally, we run into the following error —
